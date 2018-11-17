@@ -15,8 +15,6 @@ struct file_data *file_load(char *filename)
     struct stat buf;
     int bytes_read, bytes_remaining, total_bytes = 0;
 
-    int s = open(filename, O_RDONLY);
-
     int res = stat(filename, &buf);
 
     // Get the file size
@@ -66,6 +64,7 @@ struct file_data *file_load(char *filename)
 
     filedata->data = buffer;
     filedata->size = total_bytes;
+    fclose(fp);
 
     return filedata;
 }

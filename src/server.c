@@ -39,7 +39,10 @@
 #include <sys/resource.h>
 
 
-#define PORT "3490"  // the port users will be connecting to
+#include <htmlCreator.h>
+
+
+#define PORT "3940"  // the port users will be connecting to
 
 #define SERVER_FILES "../src/serverfiles"
 #define SERVER_ROOT "../src/serverroot"
@@ -371,12 +374,14 @@ void handle_http_request(int fd, struct cache *cache)
  */
 int main(void)
 {
-
-    //checksumChecker();
     int newfd;  // listen on sock_fd, new connection on newfd
     struct sockaddr_storage their_addr; // connector's address information
     char s[INET6_ADDRSTRLEN];
     pid_t pid;
+
+    //Creación del archivo index.html con los archivos disponibles cuando arranca el servidor
+    createHTML();
+
 
     struct cache *cache = cache_create(10, 0);
 

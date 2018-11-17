@@ -24,7 +24,7 @@ add_executable(webServer
         src/mime.h
         src/net.c
         src/net.h
-        src/server.c)
+        src/server.c src/htmlCreator.c src/htmlCreator.h)
 
 target_link_libraries(${PROJECT_NAME} OpenSSL::Crypto)
 
