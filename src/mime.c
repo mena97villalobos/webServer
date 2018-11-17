@@ -41,6 +41,7 @@ char *mime_type_get(char *filename)
     if (strcmp(ext, "txt") == 0) { return "text/plain"; }
     if (strcmp(ext, "gif") == 0) { return "image/gif"; }
     if (strcmp(ext, "png") == 0) { return "image/png"; }
+    if (strcmp(ext, "mp4") == 0) { return "video/mp4"; }
 
     return DEFAULT_MIME_TYPE;
 }

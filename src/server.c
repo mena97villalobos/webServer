@@ -35,6 +35,8 @@
 #include "cache.h"
 #include <openssl/md5.h>
 #include <dirent.h>
+#include <sys/time.h>
+#include <sys/resource.h>
 
 
 #define PORT "3490"  // the port users will be connecting to
@@ -55,8 +57,9 @@
  */
 int send_response(int fd, char *header, char *content_type, void *body, int content_length)
 {
-    const int max_response_size = 262144;
-    char response[max_response_size];
+    //const int max_response_size = content_length > 262144 ? content_length + 1024: 262144;
+    //char response[max_response_size];
+    char* response = calloc(content_length + 1024, sizeof(char));
 
     // Get current time for the HTTP header
     time_t t1 = time(NULL);
@@ -79,13 +82,15 @@ int send_response(int fd, char *header, char *content_type, void *body, int cont
     memcpy(response + response_length, body, content_length);
 
     // Send it all!
-    int rv = send(fd, response, response_length + content_length, 0);
+    ssize_t rv = send(fd, response, response_length + content_length, 0);
+
+    free(response);
 
     if (rv < 0) {
         perror("send");
     }
 
-    return rv;
+    return (int)rv;
 }
 
 
@@ -169,6 +174,7 @@ int get_file_or_cache(int fd, struct cache *cache, char *filepath)
 /**
  * Read and return a file
  */
+ /*
 void get_file(int fd, struct cache *cache, char *request_path)
 {
     char filepath[4096];
@@ -188,41 +194,42 @@ void get_file(int fd, struct cache *cache, char *request_path)
         }
     }
 }
+  */
 
 /**
  * Read and return a file without reading from cache
  * or storing the fetched file in the cache
  */
-// void get_file(int fd, struct cache *cache, char *request_path)
-// {
-//     char filepath[4096];
+ void get_file(int fd, struct cache *cache, char *request_path)
+ {
+     char filepath[4096];
 
-//     struct file_data *filedata; 
-//     char *mime_type;
+     struct file_data *filedata;
+     char *mime_type;
 
-//     // Try to find the file
-//     snprintf(filepath, sizeof(filepath), "%s%s", SERVER_ROOT, request_path);
+     // Try to find the file
+     snprintf(filepath, sizeof(filepath), "%s%s", SERVER_ROOT, request_path);
     
-//     filedata = file_load(filepath);
+     filedata = file_load(filepath);
 
-//     if (filedata == NULL) {
-//         // Handle the case where user just typed in `/` as the path
-//         // Serve the index.html page
-//         snprintf(filepath, sizeof filepath, "%s%s/index.html", SERVER_ROOT, request_path);
-//         filedata = file_load(filepath);
+     if (filedata == NULL) {
+         // Handle the case where user just typed in `/` as the path
+         // Serve the index.html page
+         snprintf(filepath, sizeof filepath, "%s%s/index.html", SERVER_ROOT, request_path);
+         filedata = file_load(filepath);
 
-//         if (filedata == NULL) {
-//             resp_404(fd);
-//             return;
-//         }
-//     }
+         if (filedata == NULL) {
+             resp_404(fd);
+             return;
+         }
+     }
 
-//     mime_type = mime_type_get(filepath);
+     mime_type = mime_type_get(filepath);
 
-//     send_response(fd, "HTTP/1.1 200 OK",  mime_type, filedata->data, filedata->size);
+     send_response(fd, "HTTP/1.1 200 OK",  mime_type, filedata->data, filedata->size);
 
-//     file_free(filedata);
-// }
+     file_free(filedata);
+}
 
 /**
  * Post /save endpoint data
@@ -365,7 +372,7 @@ void checksumChecker(){
     ssize_t bytes;
     int fd;
     char filename[512];
-    char md5Key[MD5_DIGEST_LENGTH];
+    unsigned char* md5Key;
     DIR *d;
     struct dirent *dir;
     d = opendir("/home/bryan/Desktop/webServer/src/serverroot");
@@ -398,7 +405,13 @@ void checksumChecker(){
  */
 int main(void)
 {
-    checksumChecker();
+    struct rlimit* limitesStack = malloc(sizeof(struct rlimit));
+    limitesStack->rlim_max = 50000000;
+    limitesStack->rlim_cur = 25000000;
+    setrlimit(RLIMIT_STACK, limitesStack);
+    free(limitesStack);
+
+    //checksumChecker();
     int newfd;  // listen on sock_fd, new connection on newfd
     struct sockaddr_storage their_addr; // connector's address information
     char s[INET6_ADDRSTRLEN];
