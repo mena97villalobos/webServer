@@ -41,8 +41,8 @@
 
 #define PORT "3490"  // the port users will be connecting to
 
-#define SERVER_FILES "/home/bryan/Desktop/webServer/src/serverfiles"
-#define SERVER_ROOT "/home/bryan/Desktop/webServer/src/serverroot"
+#define SERVER_FILES "../src/serverfiles"
+#define SERVER_ROOT "../src/serverroot"
 
 /**
  * Send an HTTP response
@@ -364,52 +364,13 @@ void handle_http_request(int fd, struct cache *cache)
     }
 }
 
-void checksumChecker(){
-    printf("Entra checksum");
-    int n;
-    MD5_CTX c;
-    char buf[512];
-    ssize_t bytes;
-    int fd;
-    char filename[512];
-    unsigned char* md5Key;
-    DIR *d;
-    struct dirent *dir;
-    d = opendir("/home/bryan/Desktop/webServer/src/serverroot");
-    while(1) {
-        MD5_Init(&c);
-        if (d) {
-            while ((dir = readdir(d)) != NULL) {
-                if (dir->d_type == DT_REG) {
-                    sprintf(filename, "%s/%s", "/home/bryan/Desktop/webServer/src/serverroot", dir->d_name);
-                    fd = open(filename, O_RDONLY);
-                    bytes = read(fd, buf, 512);
-                    while (bytes > 0) {
-                        MD5_Update(&c, buf, bytes);
-                        bytes = read(fd, buf, 512);
-                    }
-                    close(fd);
-                }
-            }
-            MD5_Final(md5Key, &c);
-            for (n = 0; n < MD5_DIGEST_LENGTH; n++)
-                printf("%02x", md5Key[n]);
-            closedir(d);
-        }
-        sleep(120);
-    }
-}
+
 
 /**
  * Main
  */
 int main(void)
 {
-    struct rlimit* limitesStack = malloc(sizeof(struct rlimit));
-    limitesStack->rlim_max = 50000000;
-    limitesStack->rlim_cur = 25000000;
-    setrlimit(RLIMIT_STACK, limitesStack);
-    free(limitesStack);
 
     //checksumChecker();
     int newfd;  // listen on sock_fd, new connection on newfd
@@ -433,41 +394,31 @@ int main(void)
     // fork()s a handler process to take care of it. The main parent
     // process then goes back to waiting for new connections.
 
-    pid = fork();
+    while (1) {
+        socklen_t sin_size = sizeof their_addr;
 
-    if(pid < 0){
-        printf("Error en la creación de un fork \n");
-        return 0;
-    }
-    else if(pid == 0){
-        checksumChecker();
-    }
-    else {
-        while (1) {
-            socklen_t sin_size = sizeof their_addr;
-
-            // Parent process will block on the accept() call until someone
-            // makes a new connection:
-            newfd = accept(listenfd, (struct sockaddr *) &their_addr, &sin_size);
-            if (newfd == -1) {
-                perror("accept");
-                continue;
-            }
-
-            // Print out a message that we got the connection
-            inet_ntop(their_addr.ss_family,
-                      get_in_addr((struct sockaddr *) &their_addr),
-                      s, sizeof s);
-            printf("server: got connection from %s\n", s);
-
-            // newfd is a new socket descriptor for the new connection.
-            // listenfd is still listening for new connections.
-
-            handle_http_request(newfd, cache);
-
-            close(newfd);
+        // Parent process will block on the accept() call until someone
+        // makes a new connection:
+        newfd = accept(listenfd, (struct sockaddr *) &their_addr, &sin_size);
+        if (newfd == -1) {
+            perror("accept");
+            continue;
         }
+
+        // Print out a message that we got the connection
+        inet_ntop(their_addr.ss_family,
+                  get_in_addr((struct sockaddr *) &their_addr),
+                  s, sizeof s);
+        printf("server: got connection from %s\n", s);
+
+        // newfd is a new socket descriptor for the new connection.
+        // listenfd is still listening for new connections.
+
+        handle_http_request(newfd, cache);
+
+        close(newfd);
     }
+
     // Unreachable code
 
     return 0;
