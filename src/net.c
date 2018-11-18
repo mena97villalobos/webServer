@@ -8,13 +8,14 @@
 #include <arpa/inet.h>
 #include "net.h"
 
-#define BACKLOG 10	 // how many pending connections queue will hold
+#define BACKLOG 100
 
 /**
  * This gets an Internet address, either IPv4 or IPv6
  *
  * Helper function to make printing easier.
  */
+
 void *get_in_addr(struct sockaddr *sa)
 {
     if (sa->sa_family == AF_INET) {
@@ -29,6 +30,7 @@ void *get_in_addr(struct sockaddr *sa)
  *
  * Returns -1 or error
  */
+
 int get_listener_socket(char *port)
 {
     int sockfd;
@@ -98,7 +100,6 @@ int get_listener_socket(char *port)
     // Start listening. This is what allows remote computers to connect
     // to this socket/IP.
     if (listen(sockfd, BACKLOG) == -1) {
-        //perror("listen");
         close(sockfd);
         return -4;
     }

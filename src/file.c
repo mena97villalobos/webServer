@@ -36,7 +36,7 @@ struct file_data *file_load(char *filename)
 
     // Allocate that many bytes
     bytes_remaining = buf.st_size;
-    p = buffer = malloc(bytes_remaining);
+    p = buffer = calloc(bytes_remaining + 1, sizeof(char));
 
     if (buffer == NULL) {
         return NULL;

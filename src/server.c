@@ -40,12 +40,14 @@
 
 
 #include <htmlCreator.h>
+#include <pthread.h>
 
 
 #define PORT "3940"  // the port users will be connecting to
 
 #define SERVER_FILES "../src/serverfiles"
 #define SERVER_ROOT "../src/serverroot"
+
 
 /**
  * Send an HTTP response
@@ -96,20 +98,6 @@ int send_response(int fd, char *header, char *content_type, void *body, int cont
     return (int)rv;
 }
 
-
-/**
- * Send a /d20 endpoint response
- */
-void get_d20(int fd)
-{
-    srand(time(NULL) + getpid());
-
-    char response_body[8];
-    sprintf(response_body, "%d\n", (rand()%20)+1);
-
-    send_response(fd, "HTTP/1.1 200 OK", "text/plain", response_body, strlen(response_body));
-}
-
 /**
  * Send a 404 response
  */
@@ -123,7 +111,6 @@ void resp_404(int fd)
     filedata = file_load(filepath);
 
     if (filedata == NULL) {
-        // TODO: make this non-fatal
         fprintf(stderr, "cannot find system 404 file\n");
         exit(3);
     }
@@ -150,8 +137,6 @@ int get_file_or_cache(int fd, struct cache *cache, char *filepath)
     if (cacheent != NULL) {
         // Found it in the cache
 
-        // TODO: remove and ignore the cache entry if it's too old
-
         send_response(fd, "HTTP/1.1 200 OK",  cacheent->content_type, cacheent->content, cacheent->content_length);
 
     } else {
@@ -177,7 +162,7 @@ int get_file_or_cache(int fd, struct cache *cache, char *filepath)
 /**
  * Read and return a file
  */
- /*
+
 void get_file(int fd, struct cache *cache, char *request_path)
 {
     char filepath[4096];
@@ -197,12 +182,13 @@ void get_file(int fd, struct cache *cache, char *request_path)
         }
     }
 }
-  */
+
 
 /**
  * Read and return a file without reading from cache
  * or storing the fetched file in the cache
  */
+ /*
  void get_file(int fd, struct cache *cache, char *request_path)
  {
      char filepath[4096];
@@ -233,6 +219,7 @@ void get_file(int fd, struct cache *cache, char *request_path)
 
      file_free(filedata);
 }
+*/
 
 /**
  * Post /save endpoint data
@@ -301,6 +288,8 @@ char *find_start_of_body(char *header)
  */
 void handle_http_request(int fd, struct cache *cache)
 {
+
+
     const int request_buffer_size = 65536; // 64K
     char request[request_buffer_size];
     char *p;
@@ -313,7 +302,6 @@ void handle_http_request(int fd, struct cache *cache)
 
     if (bytes_recvd < 0) {
         perror("recv");
-        return;
     }
 
      // NUL terminate request string
@@ -341,14 +329,7 @@ void handle_http_request(int fd, struct cache *cache)
     printf("REQUEST: %s %s %s\n", request_type, request_path, request_protocol);
 
     if (strcmp(request_type, "GET") == 0) {
-
-        if (strcmp(request_path, "/d20") == 0) {
-            // Handle any programmatic endpoints here
-            get_d20(fd);
-        } else {
-            // Otherwise try to get a file
             get_file(fd, cache, request_path);
-        }
     }
 
     else if (strcmp(request_type, "POST") == 0) {
@@ -363,17 +344,15 @@ void handle_http_request(int fd, struct cache *cache)
 
     else {
         fprintf(stderr, "unknown request type \"%s\"\n", request_type);
-        return;
     }
 }
-
-
 
 /**
  * Main
  */
 int main(void)
 {
+
     int newfd;  // listen on sock_fd, new connection on newfd
     struct sockaddr_storage their_addr; // connector's address information
     char s[INET6_ADDRSTRLEN];
@@ -416,11 +395,7 @@ int main(void)
                   s, sizeof s);
         printf("server: got connection from %s\n", s);
 
-        // newfd is a new socket descriptor for the new connection.
-        // listenfd is still listening for new connections.
-
         handle_http_request(newfd, cache);
-
         close(newfd);
     }
 

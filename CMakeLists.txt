@@ -27,4 +27,5 @@ add_executable(webServer
         src/server.c src/htmlCreator.c src/htmlCreator.h)
 
 target_link_libraries(${PROJECT_NAME} OpenSSL::Crypto)
+target_link_libraries(webServer pthread)
 

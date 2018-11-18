@@ -13,7 +13,6 @@
 #include "file.h"
 #include "htmlCreator.h"
 
-#define INDEX_HTML "../src/serverroot/index.html"
 #define PATH_XML "../src/serverroot"
 #define REGEX_NOMBRE "<nombre>(.*|\s*)<\/nombre>"
 #define REGEX_DESC "<descripcion>(.*|\s*)<\/descripcion>"
@@ -87,7 +86,7 @@ void parseData(char* datos, int indexBloque){
     fprintf(f, "%s", "\"></a></div><div class=\"card-box\"><h4 class=\"card-title pb-3 mbr-fonts-style display-7\">\n");
     fprintf(f, "%s", videoData->nombre);
     fprintf(f, "%s", "</h4><p class=\"mbr-text mbr-fonts-style display-7\">\n");
-    fprintf(f, "%s", videoData->descripcion);
+    fprintf(f, "Descripción: %s\nTamaño: %s\nFecha: %s\n", videoData->descripcion, videoData->tamanno, videoData->fecha);
     fprintf(f, "%s", "</p>\n</div>\n</div></div>");
 
     if(indexBloque == 5)
@@ -140,6 +139,6 @@ void createHTML(){
     f = fopen("../src/serverroot/index.html", "a");
     if(!bloqueCerrado)
         fprintf(f, "%s\n", "</div></div>");
-    fprintf(f, "%s\n", (char*)htmlFootData->data);
+    fprintf(f, "%s", (char*)htmlFootData->data);
     fclose(f);
 }
