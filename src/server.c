@@ -477,8 +477,6 @@ int main(void)
     struct cache *cachemodify = cache_create(10,0);
 
     // Get a listening socket
-    int listenfd = get_listener_socket(PORT);
-    int listenfdModify = get_listener_socket(PORT_MODIFY);
 
     // This is the main loop that accepts incoming connections and
     // fork()s a handler process to take care of it. The main parent
@@ -487,6 +485,8 @@ int main(void)
 
 
     if(pid>0) {
+        int listenfd = get_listener_socket(PORT);
+
         if (listenfd < 0) {
             fprintf(stderr, "webserver: fatal error getting listening socket\n");
             exit(1);
@@ -520,6 +520,7 @@ int main(void)
     else if(pid < 0)
         printf("Error");
     else{
+        int listenfdModify = get_listener_socket(PORT_MODIFY);
 
         if (listenfdModify < 0) {
             fprintf(stderr, "webserver: fatal error getting listening socket\n");
