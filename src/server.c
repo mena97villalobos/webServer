@@ -44,6 +44,7 @@
 
 
 #define PORT "3940"  // the port users will be connecting to
+#define PORT_MODIFY "3941"
 
 #define SERVER_FILES "../src/serverfiles"
 #define SERVER_ROOT "../src/serverroot"
@@ -59,7 +60,96 @@
  * content_length: The length of the data in the body.
  * 
  * Return the value from the send() function.
+ *
  */
+
+void separar_parametros(char valores_param [][1000], char *string_parametros){
+
+    char * parametros[10];
+
+    parametros[0] = strtok(string_parametros,"&");
+    int i =0;
+    while(parametros[i]!= NULL){
+        i++;
+        parametros[i] = strtok(NULL,"&");
+
+    }
+
+    for(int j = 0; j<i;j++){
+        strcpy(valores_param[j],strtok(parametros[j],"="));
+        strcpy(valores_param[j],strtok(NULL,"="));
+    }
+}
+
+void modificar_info_video(char * parametros) {
+
+    char valores_parametros_tmp[10][1000];
+    char valores_xml[10][1000];
+    char path_archivo_modificar[100];
+    char tmp[10];
+    char path_tmp[100];
+
+    FILE *fp;
+    FILE *fp_tmp;
+    char *line = NULL;
+    size_t len = 0;
+    ssize_t read;
+
+
+    separar_parametros(valores_parametros_tmp, parametros);
+
+    sprintf(tmp,"%s.xml","tmp");
+
+    sprintf(path_tmp,"%s/%s",SERVER_ROOT,tmp);
+
+    sprintf(valores_parametros_tmp[0], "%s.xml", valores_parametros_tmp[0]);
+
+    sprintf(valores_xml[0], "    <descripcion>%s</descripcion>\n",valores_parametros_tmp[1]);
+
+    sprintf(valores_xml[1], "    <fecha>%s</fecha>\n",valores_parametros_tmp[2]);
+
+    sprintf(path_archivo_modificar, "%s/%s", SERVER_ROOT, valores_parametros_tmp[0]);
+
+    fp = fopen(path_archivo_modificar, "r");
+    fp_tmp = fopen(path_tmp,"w");
+
+    if (fp == NULL || fp_tmp == NULL)
+        perror("Error al abrir o crear el archivo");
+
+    else {
+        int contador = 0;
+        int posiciones[] = {2,4};
+        while ((read = getline(&line, &len, fp)) != -1) {
+
+            if(contador == posiciones[0])
+                fprintf(fp_tmp,"%s",valores_xml[0]);
+            else if(contador == posiciones[1])
+                fprintf(fp_tmp,"%s",valores_xml[1]);
+            else {
+                fprintf(fp_tmp, "%s", line);
+            }
+
+            contador++;
+        }
+        fclose(fp);
+        fclose(fp_tmp);
+        rename(path_tmp,path_archivo_modificar);
+    }
+
+}
+
+void dividir_request_path(char *request_divided[], char request_path[]){
+
+   request_divided[0]= strtok(request_path, "?");
+    int i =0;
+    while(request_divided[i]!= NULL){
+        i++;
+        request_divided[i] = strtok(NULL,"?");
+
+    }
+
+}
+
 int send_response(int fd, char *header, char *content_type, void *body, int content_length)
 {
     //const int max_response_size = content_length > 262144 ? content_length + 1024: 262144;
@@ -163,7 +253,7 @@ int get_file_or_cache(int fd, struct cache *cache, char *filepath)
  * Read and return a file
  */
 
-void get_file(int fd, struct cache *cache, char *request_path)
+void get_file(int fd, struct cache *cache, char *request_path, char * puerto)
 {
     char filepath[4096];
     int status;
@@ -173,7 +263,11 @@ void get_file(int fd, struct cache *cache, char *request_path)
     status = get_file_or_cache(fd, cache, filepath);
 
     if (status == -1) {
-        sprintf(filepath, "%s%s/index.html", SERVER_ROOT, request_path);
+
+        if(strcmp(puerto,"3940") == 0)
+            sprintf(filepath, "%s%s/index.html", SERVER_ROOT, request_path);
+        else
+            sprintf(filepath, "%s%s/indexadministrador.html", SERVER_ROOT, request_path);
         status = get_file_or_cache(fd, cache, filepath);
 
         if (status == -1) {
@@ -286,16 +380,16 @@ char *find_start_of_body(char *header)
 /**
  * Handle HTTP request and send response
  */
-void handle_http_request(int fd, struct cache *cache)
+void handle_http_request(int fd, struct cache *cache,char * puerto)
 {
-
-
     const int request_buffer_size = 65536; // 64K
     char request[request_buffer_size];
     char *p;
     char request_type[8]; // GET or POST
     char request_path[1024]; // /info etc.
     char request_protocol[128]; // HTTP/1.1
+    char request_path_copy[1024];
+    char * request_path_div [80];
 
     // Read request
     int bytes_recvd = recv(fd, request, request_buffer_size - 1, 0);
@@ -328,8 +422,21 @@ void handle_http_request(int fd, struct cache *cache)
 
     printf("REQUEST: %s %s %s\n", request_type, request_path, request_protocol);
 
+
+
+    strcpy(request_path_copy,request_path);
+
+    dividir_request_path(request_path_div,request_path_copy);
+
+
     if (strcmp(request_type, "GET") == 0) {
-            get_file(fd, cache, request_path);
+
+        if(strcmp(request_path_div[0],"/modificarXML") ==0) {
+            modificar_info_video(request_path_div[1]); //Envia los parametros de modificacion
+            get_file(fd, cache, "/", puerto);
+        }
+        else
+            get_file(fd, cache, request_path,puerto);
     }
 
     else if (strcmp(request_type, "POST") == 0) {
@@ -354,8 +461,12 @@ int main(void)
 {
 
     int newfd;  // listen on sock_fd, new connection on newfd
+    int newfdmodify;
     struct sockaddr_storage their_addr; // connector's address information
+    struct sockaddr_storage addr_modify;
     char s[INET6_ADDRSTRLEN];
+    char smodify[INET6_ADDRSTRLEN];
+
     pid_t pid;
 
     //Creación del archivo index.html con los archivos disponibles cuando arranca el servidor
@@ -363,40 +474,80 @@ int main(void)
 
 
     struct cache *cache = cache_create(10, 0);
+    struct cache *cachemodify = cache_create(10,0);
 
     // Get a listening socket
     int listenfd = get_listener_socket(PORT);
-
-    if (listenfd < 0) {
-        fprintf(stderr, "webserver: fatal error getting listening socket\n");
-        exit(1);
-    }
-
-    printf("webserver: waiting for connections on port %s...\n", PORT);
+    int listenfdModify = get_listener_socket(PORT_MODIFY);
 
     // This is the main loop that accepts incoming connections and
     // fork()s a handler process to take care of it. The main parent
     // process then goes back to waiting for new connections.
+    pid = fork();
 
-    while (1) {
-        socklen_t sin_size = sizeof their_addr;
 
-        // Parent process will block on the accept() call until someone
-        // makes a new connection:
-        newfd = accept(listenfd, (struct sockaddr *) &their_addr, &sin_size);
-        if (newfd == -1) {
-            perror("accept");
-            continue;
+    if(pid>0) {
+        if (listenfd < 0) {
+            fprintf(stderr, "webserver: fatal error getting listening socket\n");
+            exit(1);
         }
 
-        // Print out a message that we got the connection
-        inet_ntop(their_addr.ss_family,
-                  get_in_addr((struct sockaddr *) &their_addr),
-                  s, sizeof s);
-        printf("server: got connection from %s\n", s);
+        printf("webserver: waiting for connections on port %s...\n", PORT);
 
-        handle_http_request(newfd, cache);
-        close(newfd);
+
+        while (1) {
+            createHTML();
+            socklen_t sin_size = sizeof their_addr;
+
+            // Parent process will block on the accept() call until someone
+            // makes a new connection:
+            newfd = accept(listenfd, (struct sockaddr *) &their_addr, &sin_size);
+            if (newfd == -1) {
+                perror("accept");
+                continue;
+            }
+
+            // Print out a message that we got the connection
+            inet_ntop(their_addr.ss_family,
+                      get_in_addr((struct sockaddr *) &their_addr),
+                      s, sizeof s);
+            printf("server: got connection from %s\n", s);
+
+            handle_http_request(newfd, cache,PORT);
+            close(newfd);
+        }
+    }
+    else if(pid < 0)
+        printf("Error");
+    else{
+
+        if (listenfdModify < 0) {
+            fprintf(stderr, "webserver: fatal error getting listening socket\n");
+            exit(1);
+        }
+
+        printf("webserver: waiting for connections on port %s...\n", PORT_MODIFY);
+
+        while (1) {
+            socklen_t sin_size = sizeof addr_modify;
+
+            // Parent process will block on the accept() call until someone
+            // makes a new connection:
+            newfdmodify = accept(listenfdModify, (struct sockaddr *) &addr_modify, &sin_size);
+            if (newfdmodify == -1) {
+                perror("accept");
+                continue;
+            }
+
+            // Print out a message that we got the connection
+            inet_ntop(addr_modify.ss_family,
+                      get_in_addr((struct sockaddr *) &addr_modify),
+                      smodify, sizeof smodify);
+            printf("server: got connection from %s\n", smodify);
+
+            handle_http_request(newfdmodify, cachemodify,PORT_MODIFY);
+            close(newfdmodify);
+        }
     }
 
     // Unreachable code
