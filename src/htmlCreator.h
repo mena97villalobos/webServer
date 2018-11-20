@@ -14,6 +14,9 @@ struct xmlVideo{
 };
 
 
-void createHTML();
+void mainCreateHTML();
+struct xmlVideo* parseData(char*);
+void createIndexHTML(struct xmlVideo*, int);
+void createAdminHTML(struct xmlVideo*);
 
 #endif //WEBSERVER_HTMLCREATOR_H

@@ -23,12 +23,39 @@
 #define HTML_HEADER_PATH "../src/serverroot/indexHeader.html"
 #define HTML_FOOT_PATH "../src/serverroot/indexFoot.html"
 
-void parseData(char* datos, int indexBloque, char filename []){
+
+void createAdminHTML(struct xmlVideo* videoData){
+
+}
+
+void createIndexHTML(struct xmlVideo* videoData, int indexBloque){
+    FILE* f = fopen("../src/serverroot/index.html", "a");
+
+    if(indexBloque == 0)
+        fprintf(f, "%s\n", "<div class=\"container-fluid\"> <div class=\"media-container-row\">");
+
+    fprintf(f, "%s%s%s", "<div class=\"card p-3 col-12 col-md-6 col-lg-2\">"
+                         "<div class=\"card-wrapper\"><div class=\"card-img\"><a href=\"http://localhost:3940/", videoData->nombre,
+            ".mp4\"><img src=\"");
+    fprintf(f, "%s", videoData->previewPath);
+    fprintf(f, "%s", "\"></a></div><div class=\"card-box\"><h4 class=\"card-title pb-3 mbr-fonts-style display-7\">\n");
+    fprintf(f, "%s", videoData->nombre);
+    fprintf(f, "%s", "</h4><p class=\"mbr-text mbr-fonts-style display-7\">\n");
+    fprintf(f, "Descripción: %s\nTamaño: %s\nFecha: %s\n", videoData->descripcion, videoData->tamanno, videoData->fecha);
+    fprintf(f, "%s", "</p>\n</div>\n</div></div>");
+
+    if(indexBloque == 5)
+        fprintf(f, "%s\n", "</div></div>");
+
+    fclose(f);
+
+    free(videoData);
+}
+
+struct xmlVideo* parseData(char* datos){
     char* regexs[5] = {REGEX_NOMBRE, REGEX_DESC, REGEX_TAMANNO, REGEX_FECHA, REGEX_PREVIEW_PATH};
     int returns;
     struct xmlVideo* videoData = malloc(sizeof(struct xmlVideo));
-    char path_video[100] = "../src/serverroot/";
-
 
     for(int i = 0; i < 5; i++){
         regex_t regex;
@@ -75,32 +102,13 @@ void parseData(char* datos, int indexBloque, char filename []){
         }
         regfree(&regex);
     }
+    return videoData;
 
-    FILE* f = fopen("../src/serverroot/index.html", "a");
 
-    if(indexBloque == 0)
-        fprintf(f, "%s\n", "<div class=\"container-fluid\"> <div class=\"media-container-row\">");
-
-    fprintf(f, "%s%s%s", "<div class=\"card p-3 col-12 col-md-6 col-lg-2\">"
-                     "<div class=\"card-wrapper\"><div class=\"card-img\"><a href=\"http://localhost:3940/", videoData->nombre,
-                     ".mp4\"><img src=\"");
-    fprintf(f, "%s", videoData->previewPath);
-    fprintf(f, "%s", "\"></a></div><div class=\"card-box\"><h4 class=\"card-title pb-3 mbr-fonts-style display-7\">\n");
-    fprintf(f, "%s", videoData->nombre);
-    fprintf(f, "%s", "</h4><p class=\"mbr-text mbr-fonts-style display-7\">\n");
-    fprintf(f, "Descripción: %s\nTamaño: %s\nFecha: %s\n", videoData->descripcion, videoData->tamanno, videoData->fecha);
-    fprintf(f, "%s", "</p>\n</div>\n</div></div>");
-
-    if(indexBloque == 5)
-        fprintf(f, "%s\n", "</div></div>");
-
-    fclose(f);
-
-    free(videoData);
 }
 
 
-void createHTML(){
+void mainCreateHTML(){
     DIR *d;
     struct dirent *dir;
     d = opendir(PATH_XML);
@@ -109,6 +117,7 @@ void createHTML(){
     struct file_data* htmlFootData = file_load(HTML_FOOT_PATH);
     int contador = 0;
     int bloqueCerrado = 1;
+    struct xmlVideo* datosVideo;
 
     FILE* f = fopen("../src/serverroot/index.html", "w");
     fprintf(f, "%s\n", (char*)htmlHeaderData->data);
@@ -124,7 +133,8 @@ void createHTML(){
                         bloqueCerrado = 0;
 
                     struct file_data *fileData = file_load(filename);
-                    parseData(fileData->data, contador,dir->d_name);
+                    datosVideo = parseData(fileData->data);
+                    createIndexHTML(datosVideo, contador);
                     file_free(fileData);
 
                     if(contador == 5) {

@@ -425,59 +425,59 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
         perror("recv");
     }
 
-     // NUL terminate request string
-    request[bytes_recvd] = '\0';
+    if(bytes_recvd > 0) {
 
-    // Look for two newlines marking the end of the header
-    p = find_start_of_body(request);
+        // NUL terminate request string
+        request[bytes_recvd] = '\0';
 
-    if (p == NULL) {
-        printf("Could not find end of header\n");
-        exit(1);
-    }
+        // Look for two newlines marking the end of the header
+        p = find_start_of_body(request);
 
-    // And here is the body
-    char *body = p;
-
-    /*
-    * Now that we've assessed the request, we can take actions.
-    */
-
-    // Read the three components of the first request line
-    sscanf(request, "%s %s %s", request_type, request_path,
-        request_protocol);
-
-    printf("REQUEST: %s %s %s\n", request_type, request_path, request_protocol);
-
-
-
-    strcpy(request_path_copy,request_path);
-
-    dividir_request_path(request_path_div,request_path_copy);
-
-
-    if (strcmp(request_type, "GET") == 0) {
-
-        if(strcmp(request_path_div[0],"/modificarXML") ==0) {
-            modificar_info_video(request_path_div[1]); //Envia los parametros de modificacion
-            get_file(fd, cache, "/", puerto);
+        if (p == NULL) {
+            printf("Could not find end of header\n");
+            exit(1);
         }
-        else
-            get_file(fd, cache, request_path,puerto);
-    }
 
-    else if (strcmp(request_type, "POST") == 0) {
-        // Endpoint "/save"
-        if (strcmp(request_path, "/save") == 0) {
-            post_save(fd, body);
+        // And here is the body
+        char *body = p;
 
+        /*
+        * Now that we've assessed the request, we can take actions.
+        */
+
+        // Read the three components of the first request line
+        sscanf(request, "%s %s %s", request_type, request_path,
+               request_protocol);
+
+        printf("REQUEST: %s %s %s\n", request_type, request_path, request_protocol);
+
+
+        strcpy(request_path_copy, request_path);
+
+        dividir_request_path(request_path_div, request_path_copy);
+
+
+        if (strcmp(request_type, "GET") == 0) {
+
+            if (strcmp(request_path_div[0], "/modificarXML") == 0) {
+                modificar_info_video(request_path_div[1]); //Envia los parametros de modificacion
+                get_file(fd, cache, "/", puerto);
+            } else
+                get_file(fd, cache, request_path, puerto);
+        } else if (strcmp(request_type, "POST") == 0) {
+            // Endpoint "/save"
+            if (strcmp(request_path, "/save") == 0) {
+                post_save(fd, body);
+
+            } else {
+                resp_404(fd);
+            }
         } else {
-            resp_404(fd);
+            fprintf(stderr, "unknown request type \"%s\"\n", request_type);
         }
     }
-
-    else {
-        fprintf(stderr, "unknown request type \"%s\"\n", request_type);
+    else{
+        printf("El servidor recibió 0 bytes de petición\n");
     }
 }
 
@@ -497,17 +497,17 @@ int main(void)
     pid_t pid;
 
     //Creación del archivo index.html con los archivos disponibles cuando arranca el servidor
-    createHTML();
+    mainCreateHTML();
 
 
     struct cache *cache = cache_create(10, 0);
     struct cache *cachemodify = cache_create(10,0);
 
     // Get a listening socket
-
     // This is the main loop that accepts incoming connections and
     // fork()s a handler process to take care of it. The main parent
     // process then goes back to waiting for new connections.
+
     pid = fork();
 
 
@@ -523,7 +523,6 @@ int main(void)
 
 
         while (1) {
-            createHTML();
             socklen_t sin_size = sizeof their_addr;
 
             // Parent process will block on the accept() call until someone
@@ -540,7 +539,7 @@ int main(void)
                       s, sizeof s);
             printf("server: got connection from %s\n", s);
 
-            handle_http_request(newfd, cache,PORT);
+            handle_http_request(newfd, cache, PORT);
             close(newfd);
         }
     }
