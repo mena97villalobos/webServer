@@ -104,6 +104,8 @@ void modificar_info_video(char * parametros) {
 
     sprintf(valores_parametros_tmp[0], "%s.xml", valores_parametros_tmp[0]);
 
+
+
     sprintf(valores_xml[0], "    <descripcion>%s</descripcion>\n",valores_parametros_tmp[1]);
 
     sprintf(valores_xml[1], "    <fecha>%s</fecha>\n",valores_parametros_tmp[2]);
@@ -393,6 +395,9 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
 
     // Read request
     int bytes_recvd = recv(fd, request, request_buffer_size - 1, 0);
+
+    printf("REQUEST \n %s",request);
+
 
     if (bytes_recvd < 0) {
         perror("recv");

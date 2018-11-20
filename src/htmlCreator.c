@@ -99,7 +99,7 @@ void parseData(char* datos, int indexBloque, char filename []){
     fprintf(f, "%s", "\"></a></div><div class=\"card-box\"><h4 class=\"card-title pb-3 mbr-fonts-style display-7\">\n");
     fprintf(f, "%s", videoData->nombre);
     fprintf(f, "%s", "</h4><p class=\"mbr-text mbr-fonts-style display-7\">\n");
-    fprintf(f, "Descripción: %s\nTamaño: %ld\nFecha: %s\n", videoData->descripcion, sizeArchivo, videoData->fecha);
+    fprintf(f, "Descripción: %s\nTamaño: %s\nFecha: %s\n", videoData->descripcion, videoData->tamanno, videoData->fecha);
     fprintf(f, "%s", "</p>\n</div>\n</div></div>");
 
     if(indexBloque == 5)
