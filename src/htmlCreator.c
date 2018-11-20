@@ -23,10 +23,23 @@
 #define HTML_HEADER_PATH "../src/serverroot/indexHeader.html"
 #define HTML_FOOT_PATH "../src/serverroot/indexFoot.html"
 
-void parseData(char* datos, int indexBloque){
+void parseData(char* datos, int indexBloque, char filename []){
     char* regexs[5] = {REGEX_NOMBRE, REGEX_DESC, REGEX_TAMANNO, REGEX_FECHA, REGEX_PREVIEW_PATH};
     int returns;
     struct xmlVideo* videoData = malloc(sizeof(struct xmlVideo));
+    char path_video[100] = "../src/serverroot/";
+    char copy_filename[100];
+    strcpy(copy_filename,filename);
+
+    strcat(path_video,strtok(copy_filename,"."));
+    strcat(path_video,".mp4");
+
+    FILE *vid_file = fopen(path_video,"r");
+
+    fseek(vid_file, 0, SEEK_END); // seek to end of file
+    long sizeArchivo = ftell(vid_file);
+
+
 
     for(int i = 0; i < 5; i++){
         regex_t regex;
@@ -86,7 +99,7 @@ void parseData(char* datos, int indexBloque){
     fprintf(f, "%s", "\"></a></div><div class=\"card-box\"><h4 class=\"card-title pb-3 mbr-fonts-style display-7\">\n");
     fprintf(f, "%s", videoData->nombre);
     fprintf(f, "%s", "</h4><p class=\"mbr-text mbr-fonts-style display-7\">\n");
-    fprintf(f, "Descripción: %s\nTamaño: %s\nFecha: %s\n", videoData->descripcion, videoData->tamanno, videoData->fecha);
+    fprintf(f, "Descripción: %s\nTamaño: %ld\nFecha: %s\n", videoData->descripcion, sizeArchivo, videoData->fecha);
     fprintf(f, "%s", "</p>\n</div>\n</div></div>");
 
     if(indexBloque == 5)
@@ -122,7 +135,7 @@ void createHTML(){
                         bloqueCerrado = 0;
 
                     struct file_data *fileData = file_load(filename);
-                    parseData(fileData->data, contador);
+                    parseData(fileData->data, contador,dir->d_name);
                     file_free(fileData);
 
                     if(contador == 5) {
