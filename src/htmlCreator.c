@@ -25,6 +25,34 @@
 
 
 void createAdminHTML(struct xmlVideo* videoData){
+    FILE* f = fopen("../src/serverroot/admin.html", "a");
+
+    fprintf(f, "%s\n", "<br></br><div class=\"row\"><div class=\"col-md-6\">\n");
+    fprintf(f, "%s%s%s\n", "<img src=\"", videoData->previewPath, "\">\n");
+    fprintf(f, "%s\n", "</div><div class=\"col-md-6\"><h2 class=\"pb-3 align-left mbr-fonts-style display-2\">"
+                       "</h2><div><div class=\"icon-block pb-3\">"
+                       "<h4 class=\"icon-block__title align-left mbr-fonts-style display-5\">");
+    fprintf(f, "%s%s%s%s\n", videoData->nombre, "</h4></div><div class=\"icon-contacts pb-3\">"
+                                            "<h5 class=\"align-left mbr-fonts-style display-7\"></h5>\n"
+                                            "<p class=\"mbr-text align-left mbr-fonts-style display-7\"></p></div>\n"
+                                            "</div><div data-form-type=\"formoid\"><div data-form-alert=\"\" "
+                                            "hidden=\"\">Solicitud de modificación enviada!</div><form method=\"POST\" "
+                                            "action=\"/modificar\" enctype=\"multipart/form-data\"><div class=\"row\">\n"
+                                            "<div class=\"col-md-6 multi-horizontal\" data-for=\"titulo\">\n"
+                                            "<input type=\"text\" class=\"form-control input\" data-form-field=\"Titulo\" "
+                                            "placeholder=\"", videoData->nombre, "\" required=\"\" id=\"titulo-form4-9\" "
+                                            "name = \"titulo\">");
+    fprintf(f, "%s%s%s%s%s\n", "</div><div class=\"col-md-6 multi-horizontal\" data-for=\"fecha\">\n"
+                       "<input type=\"date\" class=\"form-control input\" name=\"bday\" value=\"", videoData->fecha,
+                       "\">\n"
+                       "</div>\n"
+                       "<div class=\"col-md-12\" data-for=\"descripcion\">\n"
+                       "<textarea class=\"form-control input\" name=\"descripcion\" rows=\"3\" "
+                       "data-form-field=\"Descripción\"  style=\"resize:none\" id=\"descripcion-form4-9\" placeholder=\"",
+                       videoData->descripcion, "\"></textarea></div>\n<div class=\"input-group-btn col-md-12\" style=\"margin-top: 10px;\">\n"
+                       "<button href=\"\" type=\"submit\" class=\"btn btn-primary btn-form display-4\">MODIFICAR</button>\n"
+                       "</div></div></form></div></div></div> <br></br>");
+    fclose(f);
 
 }
 
@@ -48,8 +76,6 @@ void createIndexHTML(struct xmlVideo* videoData, int indexBloque){
         fprintf(f, "%s\n", "</div></div>");
 
     fclose(f);
-
-    free(videoData);
 }
 
 struct xmlVideo* parseData(char* datos){
@@ -75,23 +101,23 @@ struct xmlVideo* parseData(char* datos){
 
             switch (i){
                 case 0:
-                    videoData->nombre = calloc((offset + 1), sizeof(char));
+                    videoData->nombre = calloc((size_t)(offset + 1), sizeof(char));
                     memcpy(videoData->nombre, &datos[pmatch[1].rm_so], offset);
                     break;
                 case 1:
-                    videoData->descripcion = calloc((offset + 1), sizeof(char));
+                    videoData->descripcion = calloc((size_t)(offset + 1), sizeof(char));
                     memcpy(videoData->descripcion, &datos[pmatch[1].rm_so], offset);
                     break;
                 case 2:
-                    videoData->tamanno = calloc((offset + 1), sizeof(char));
+                    videoData->tamanno = calloc((size_t) (offset + 1), sizeof(char));
                     memcpy(videoData->tamanno, &datos[pmatch[1].rm_so], offset);
                     break;
                 case 3:
-                    videoData->fecha = calloc((offset + 1), sizeof(char));
+                    videoData->fecha = calloc((size_t)(offset + 1), sizeof(char));
                     memcpy(videoData->fecha, &datos[pmatch[1].rm_so], offset);
                     break;
                 case 4:
-                    videoData->previewPath = calloc((offset + 1), sizeof(char));
+                    videoData->previewPath = calloc((size_t)(offset + 1), sizeof(char));
                     memcpy(videoData->previewPath, &datos[pmatch[1].rm_so], offset);
                 default:
                     break;
@@ -119,9 +145,15 @@ void mainCreateHTML(){
     int bloqueCerrado = 1;
     struct xmlVideo* datosVideo;
 
-    FILE* f = fopen("../src/serverroot/index.html", "w");
-    fprintf(f, "%s\n", (char*)htmlHeaderData->data);
-    fclose(f);
+    FILE* fIndex = fopen("../src/serverroot/index.html", "w");
+    fprintf(fIndex, "%s\n", (char*)htmlHeaderData->data);
+    fclose(fIndex);
+
+
+    FILE* fAdmin = fopen("../src/serverroot/admin.html", "w");
+    fprintf(fAdmin, "%s%s\n", (char*)htmlHeaderData->data,
+            "<section class=\"mbr-section form4 cid-r9XKgEVrj2\" id=\"form4-9\"><div class=\"container\"");
+    fclose(fAdmin);
 
     if(d) {
         while ((dir = readdir(d)) != NULL) {
@@ -135,6 +167,8 @@ void mainCreateHTML(){
                     struct file_data *fileData = file_load(filename);
                     datosVideo = parseData(fileData->data);
                     createIndexHTML(datosVideo, contador);
+                    createAdminHTML(datosVideo);
+                    free(datosVideo);
                     file_free(fileData);
 
                     if(contador == 5) {
@@ -148,9 +182,12 @@ void mainCreateHTML(){
         }
     }
 
-    f = fopen("../src/serverroot/index.html", "a");
+    fIndex = fopen("../src/serverroot/index.html", "a");
+    fAdmin = fopen("../src/serverroot/admin.html", "a");
     if(!bloqueCerrado)
-        fprintf(f, "%s\n", "</div></div>");
-    fprintf(f, "%s", (char*)htmlFootData->data);
-    fclose(f);
+        fprintf(fIndex, "%s\n", "</div></div>");
+    fprintf(fIndex, "%s", (char*)htmlFootData->data);
+    fprintf(fAdmin, "%s%s", "</div>\n</section>", (char*)htmlFootData->data);
+    fclose(fIndex);
+    fclose(fAdmin);
 }
