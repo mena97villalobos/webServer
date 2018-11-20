@@ -84,8 +84,14 @@ void separar_parametros(char valores_param [][1000], char *string_parametros){
 void modificar_info_video(char * parametros) {
 
     char valores_parametros_tmp[10][1000];
+    char valores_parametros_tmpvid[1000];
     char valores_xml[10][1000];
-    char path_archivo_modificar[100];
+    char path_archivoxml_modificar[100];
+    char path_archivomp4_modificar[100];
+    char path_nuevoxml[100];
+    char path_nuevomp4[100];
+    //char
+
     char tmp[10];
     char path_tmp[100];
 
@@ -96,37 +102,48 @@ void modificar_info_video(char * parametros) {
     ssize_t read;
 
 
+
     separar_parametros(valores_parametros_tmp, parametros);
+    strcpy(valores_parametros_tmpvid,valores_parametros_tmp[0]);
 
     sprintf(tmp,"%s.xml","tmp");
 
     sprintf(path_tmp,"%s/%s",SERVER_ROOT,tmp);
 
     sprintf(valores_parametros_tmp[0], "%s.xml", valores_parametros_tmp[0]);
+    sprintf(valores_parametros_tmpvid, "%s.mp4", valores_parametros_tmpvid);
 
 
+    sprintf(valores_xml[0], "    <nombre>%s</nombre>\n",valores_parametros_tmp[1]);
 
-    sprintf(valores_xml[0], "    <descripcion>%s</descripcion>\n",valores_parametros_tmp[1]);
+    sprintf(valores_xml[1], "    <descripcion>%s</descripcion>\n",valores_parametros_tmp[2]);
 
-    sprintf(valores_xml[1], "    <fecha>%s</fecha>\n",valores_parametros_tmp[2]);
+    sprintf(valores_xml[2], "    <fecha>%s</fecha>\n",valores_parametros_tmp[3]);
 
-    sprintf(path_archivo_modificar, "%s/%s", SERVER_ROOT, valores_parametros_tmp[0]);
+    sprintf(path_archivoxml_modificar, "%s/%s", SERVER_ROOT, valores_parametros_tmp[0]);
+    sprintf(path_archivomp4_modificar, "%s/%s", SERVER_ROOT, valores_parametros_tmpvid);
 
-    fp = fopen(path_archivo_modificar, "r");
+    sprintf(path_nuevoxml, "%s/%s.%s",SERVER_ROOT,valores_parametros_tmp[1],"xml");
+    sprintf(path_nuevomp4, "%s/%s.%s",SERVER_ROOT,valores_parametros_tmp[1],"mp4");
+
+    fp = fopen(path_archivoxml_modificar, "r");
     fp_tmp = fopen(path_tmp,"w");
 
     if (fp == NULL || fp_tmp == NULL)
         perror("Error al abrir o crear el archivo");
 
     else {
+
         int contador = 0;
-        int posiciones[] = {2,4};
+        int posiciones[] = {1,2,4};
         while ((read = getline(&line, &len, fp)) != -1) {
 
             if(contador == posiciones[0])
                 fprintf(fp_tmp,"%s",valores_xml[0]);
             else if(contador == posiciones[1])
                 fprintf(fp_tmp,"%s",valores_xml[1]);
+            else if (contador == posiciones[2])
+                fprintf(fp_tmp,"%s",valores_xml[2]);
             else {
                 fprintf(fp_tmp, "%s", line);
             }
@@ -135,7 +152,12 @@ void modificar_info_video(char * parametros) {
         }
         fclose(fp);
         fclose(fp_tmp);
-        rename(path_tmp,path_archivo_modificar);
+        rename(path_tmp,path_archivoxml_modificar);
+
+        rename(path_archivoxml_modificar, path_nuevoxml);
+        rename(path_archivomp4_modificar, path_nuevomp4);
+
+
     }
 
 }
