@@ -48,6 +48,8 @@
 
 #define SERVER_FILES "../src/serverfiles"
 #define SERVER_ROOT "../src/serverroot"
+#define ADMIN_PASS "admin"
+#define ADMIN_USER "admin"
 
 
 /**
@@ -62,6 +64,15 @@
  * Return the value from the send() function.
  *
  */
+
+struct datos_thread{
+    int fd;
+    struct cache* cachethread;
+    char * puerto;
+};
+
+
+
 
 void separar_parametros(char valores_param [][1000], char *string_parametros){
 
@@ -80,6 +91,19 @@ void separar_parametros(char valores_param [][1000], char *string_parametros){
         strcpy(valores_param[j],strtok(NULL,"="));
     }
 }
+
+int verificar_login(char * credenciales){
+    char credenciales_separadas [2][1000];
+
+    separar_parametros(credenciales_separadas,credenciales);
+
+    printf("User: %s\n",credenciales_separadas[0]);
+    printf("Password: %s\n",credenciales_separadas[1]);
+
+    return (!strcmp(credenciales_separadas[0],ADMIN_USER) && !strcmp(credenciales_separadas[1],ADMIN_PASS));
+
+}
+
 
 void modificar_info_video(char * parametros) {
 
@@ -277,7 +301,7 @@ int get_file_or_cache(int fd, struct cache *cache, char *filepath)
  * Read and return a file
  */
 
-void get_file(int fd, struct cache *cache, char *request_path, char * puerto)
+void get_file(int fd, struct cache *cache, char *request_path, char * puerto, int esAdmin)
 {
     char filepath[4096];
     int status;
@@ -290,8 +314,13 @@ void get_file(int fd, struct cache *cache, char *request_path, char * puerto)
 
         if(strcmp(puerto,"3940") == 0)
             sprintf(filepath, "%s%s/index.html", SERVER_ROOT, request_path);
-        else
-            sprintf(filepath, "%s%s/indexadministrador.html", SERVER_ROOT, request_path);
+        else{
+            if(!esAdmin)
+                sprintf(filepath, "%s%s/adminLogin.html", SERVER_ROOT, request_path);
+            else
+                sprintf(filepath, "%s%s/indexadministrador.html", SERVER_ROOT, request_path);
+        }
+
         status = get_file_or_cache(fd, cache, filepath);
 
         if (status == -1) {
@@ -419,7 +448,7 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
     int bytes_recvd = recv(fd, request, request_buffer_size - 1, 0);
 
     printf("REQUEST \n %s",request);
-
+    printf("Bytes Recibidos \n %i",bytes_recvd);
 
     if (bytes_recvd < 0) {
         perror("recv");
@@ -461,9 +490,16 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
 
             if (strcmp(request_path_div[0], "/modificarXML") == 0) {
                 modificar_info_video(request_path_div[1]); //Envia los parametros de modificacion
-                get_file(fd, cache, "/", puerto);
-            } else
-                get_file(fd, cache, request_path, puerto);
+                get_file(fd, cache, "/", puerto,1); //No es necesario este valor
+
+            }else if(strcmp(request_path_div[0],"/ingresar") == 0){
+               int tienePermiso = verificar_login(request_path_div[1]);
+
+               get_file(fd,cache,"/",puerto,tienePermiso);
+            }
+
+            else
+                get_file(fd, cache, request_path, puerto,(int)NULL);
         } else if (strcmp(request_type, "POST") == 0) {
             // Endpoint "/save"
             if (strcmp(request_path, "/save") == 0) {
@@ -481,6 +517,16 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
     }
 }
 
+void *nueva_peticion(void* datos){
+    int fd = ((struct datos_thread*)datos) ->fd;
+    struct cache* cache = ((struct datos_thread*)datos) ->cachethread;
+    char * puerto = ((struct datos_thread*)datos) ->puerto;
+
+    while(1)
+        handle_http_request(fd,cache,puerto);
+
+}
+
 /**
  * Main
  */
@@ -493,14 +539,17 @@ int main(void)
     struct sockaddr_storage addr_modify;
     char s[INET6_ADDRSTRLEN];
     char smodify[INET6_ADDRSTRLEN];
-
+    pthread_t tid;
     pid_t pid;
+
+
+
 
     //Creación del archivo index.html con los archivos disponibles cuando arranca el servidor
     mainCreateHTML();
 
 
-    struct cache *cache = cache_create(10, 0);
+    //struct cache *cache = cache_create(10, 0);
     struct cache *cachemodify = cache_create(10,0);
 
     // Get a listening socket
@@ -520,10 +569,12 @@ int main(void)
         }
 
         printf("webserver: waiting for connections on port %s...\n", PORT);
-
+        //pthread_create(&tid,NULL,nueva_peticion,)
 
         while (1) {
+
             socklen_t sin_size = sizeof their_addr;
+            struct cache *cache = cache_create(10, 0);
 
             // Parent process will block on the accept() call until someone
             // makes a new connection:
@@ -539,8 +590,14 @@ int main(void)
                       s, sizeof s);
             printf("server: got connection from %s\n", s);
 
-            handle_http_request(newfd, cache, PORT);
-            close(newfd);
+            struct datos_thread * datos_th = malloc(sizeof(struct datos_thread));
+            datos_th->fd = newfd;
+            datos_th->cachethread = cache;
+            datos_th-> puerto= PORT;
+
+            pthread_create(&tid,NULL,nueva_peticion,(void *) datos_th);
+            //handle_http_request(newfd, cache, PORT);
+           // close(newfd);
         }
     }
     else if(pid < 0)
