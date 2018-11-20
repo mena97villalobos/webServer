@@ -28,17 +28,6 @@ void parseData(char* datos, int indexBloque, char filename []){
     int returns;
     struct xmlVideo* videoData = malloc(sizeof(struct xmlVideo));
     char path_video[100] = "../src/serverroot/";
-    char copy_filename[100];
-    strcpy(copy_filename,filename);
-
-    strcat(path_video,strtok(copy_filename,"."));
-    strcat(path_video,".mp4");
-
-    FILE *vid_file = fopen(path_video,"r");
-
-    fseek(vid_file, 0, SEEK_END); // seek to end of file
-    long sizeArchivo = ftell(vid_file);
-
 
 
     for(int i = 0; i < 5; i++){
