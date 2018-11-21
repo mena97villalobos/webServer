@@ -97,8 +97,6 @@ int verificar_login(char * credenciales){
 
     separar_parametros(credenciales_separadas,credenciales);
 
-    printf("User: %s\n",credenciales_separadas[0]);
-    printf("Password: %s\n",credenciales_separadas[1]);
 
     return (!strcmp(credenciales_separadas[0],ADMIN_USER) && !strcmp(credenciales_separadas[1],ADMIN_PASS));
 
@@ -446,9 +444,6 @@ int handle_http_request(int fd, struct cache *cache,char * puerto)
 
     // Read request
     int bytes_recvd = recv(fd, request, request_buffer_size - 1, 0);
-
-    //printf("REQUEST \n %s",request);
-    //printf("Bytes Recibidos \n %i",bytes_recvd);
 
     if (bytes_recvd < 0) {
         perror("recv");

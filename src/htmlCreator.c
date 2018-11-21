@@ -22,6 +22,7 @@
 
 #define HTML_HEADER_PATH "../src/serverroot/indexHeader.html"
 #define HTML_FOOT_PATH "../src/serverroot/indexFoot.html"
+#define HTML_TMPSS "../src/serverroot/tmpss.html"
 
 
 void createAdminHTML(struct xmlVideo* videoData){
@@ -76,6 +77,47 @@ void createIndexHTML(struct xmlVideo* videoData, int indexBloque){
         fprintf(f, "%s\n", "</div></div>");
 
     fclose(f);
+}
+
+void createSlideshowHTML(struct xmlVideo* videoData, int contador){
+    FILE* fSlide= fopen("../src/serverroot/slideshow.html","a");
+    FILE* ftmp= fopen(HTML_TMPSS,"a");
+
+    switch(contador){
+        case 0:
+            fprintf(fSlide,"%s\n","<div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">");
+            fprintf(fSlide,"%s\n","<ol class=\"carousel-indicators\">");
+            fprintf(fSlide,"<li data-target=\"#myCarousel\" data-slide-to=\"%i\" class=\"active\"></li>\n",contador);
+
+            fprintf(ftmp,"%s\n","<div class=\"carousel-inner\">");
+            fprintf(ftmp,"<div class=\"carousel-item active\">\n"
+                         " <a href= \"%s.mp4\"> <img  src=\"%s\" alt=\"Los Angeles\"></a>\n"
+                         "</div>\n",videoData->nombre,videoData->previewPath);
+            break;
+
+        default:
+            fprintf(fSlide,"<li data-target=\"#myCarousel\" data-slide-to=\"%i\"></li>\n",contador);
+
+            fprintf(ftmp,"<div class=\"carousel-item\">\n"
+                         " <a href= \"%s.mp4\"> <img src=\"%s\" alt=\"Chicago\"></a>\n"
+                         "</div>\n",videoData->nombre,videoData->previewPath);
+    }
+    fclose(fSlide);
+    fclose(ftmp);
+}
+
+void createFootSlideshow(FILE * fslide){
+
+    fprintf(fslide,"%s\n","<a class=\"carousel-control-prev\" href=\"#myCarousel\" role=\"button\" data-slide=\"prev\">\n"
+                          "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n"
+                          "    <span class=\"sr-only\">Previous</span>\n"
+                          "  </a>\n"
+                          "  <a class=\"carousel-control-next\" href=\"#myCarousel\" role=\"button\" data-slide=\"next\">\n"
+                          "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n"
+                          "    <span class=\"sr-only\">Next</span>\n"
+                          "  </a>");
+    fprintf(fslide,"%s\n","</div>");
+
 }
 
 struct xmlVideo* parseData(char* datos){
@@ -141,6 +183,7 @@ void mainCreateHTML(){
     char filename[512];
     struct file_data* htmlHeaderData = file_load(HTML_HEADER_PATH);
     struct file_data* htmlFootData = file_load(HTML_FOOT_PATH);
+    struct file_data* htmltmp;
     int contador = 0;
     int bloqueCerrado = 1;
     struct xmlVideo* datosVideo;
@@ -149,6 +192,12 @@ void mainCreateHTML(){
     fprintf(fIndex, "%s\n", (char*)htmlHeaderData->data);
     fclose(fIndex);
 
+    FILE* fslide = fopen("../src/serverroot/slideshow.html","w");
+    fprintf(fslide, "%s\n", (char*)htmlHeaderData->data);
+    fclose(fslide);
+
+    FILE* ftmp = fopen(HTML_TMPSS,"w");
+    fclose(ftmp);
 
     FILE* fAdmin = fopen("../src/serverroot/admin.html", "w");
     fprintf(fAdmin, "%s%s\n", (char*)htmlHeaderData->data,
@@ -168,6 +217,7 @@ void mainCreateHTML(){
                     datosVideo = parseData(fileData->data);
                     createIndexHTML(datosVideo, contador);
                     createAdminHTML(datosVideo);
+                    createSlideshowHTML(datosVideo,contador);
                     free(datosVideo);
                     file_free(fileData);
 
@@ -184,10 +234,35 @@ void mainCreateHTML(){
 
     fIndex = fopen("../src/serverroot/index.html", "a");
     fAdmin = fopen("../src/serverroot/admin.html", "a");
+    fslide = fopen("../src/serverroot/slideshow.html","a");
+    ftmp = fopen(HTML_TMPSS,"a");
+
     if(!bloqueCerrado)
         fprintf(fIndex, "%s\n", "</div></div>");
+
+    fprintf(fIndex,"%s", "<a href=\"slideshow.html\" >Ir a Slideshow</a> <br> <br>");
     fprintf(fIndex, "%s", (char*)htmlFootData->data);
+
     fprintf(fAdmin, "%s%s", "</div>\n</section>", (char*)htmlFootData->data);
+
+    fprintf(ftmp,"%s\n","</div>");
+    fprintf(fslide,"%s\n","</ol>");
+
+    fclose(ftmp);
+
+    htmltmp = file_load(HTML_TMPSS);
+    fprintf(fslide,"%s\n",(char*)htmltmp->data);
+
+    createFootSlideshow(fslide);
+
+
+    fprintf(fslide, "%s\n",(char*)htmlFootData->data);
+
+
     fclose(fIndex);
     fclose(fAdmin);
+    fclose(fslide);
+
+    remove(HTML_TMPSS);
+
 }
