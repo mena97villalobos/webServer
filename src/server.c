@@ -223,6 +223,7 @@ int send_response(int fd, char *header, char *content_type, void *body, int cont
     );
 
     memcpy(response + response_length, body, content_length);
+
     // Send it all!
     ssize_t rv = send(fd, response, response_length + content_length, 0);
 
@@ -446,8 +447,8 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
     // Read request
     int bytes_recvd = recv(fd, request, request_buffer_size - 1, 0);
 
-    printf("REQUEST \n %s",request);
-    printf("Bytes Recibidos \n %i",bytes_recvd);
+    //printf("REQUEST \n %s",request);
+    //printf("Bytes Recibidos \n %i",bytes_recvd);
 
     if (bytes_recvd < 0) {
         perror("recv");
