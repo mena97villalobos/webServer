@@ -433,7 +433,7 @@ char *find_start_of_body(char *header)
 /**
  * Handle HTTP request and send response
  */
-void handle_http_request(int fd, struct cache *cache,char * puerto)
+int handle_http_request(int fd, struct cache *cache,char * puerto)
 {
     const int request_buffer_size = 65536; // 64K
     char request[request_buffer_size];
@@ -452,6 +452,7 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
 
     if (bytes_recvd < 0) {
         perror("recv");
+        return 1;
     }
 
     if(bytes_recvd > 0) {
@@ -511,9 +512,11 @@ void handle_http_request(int fd, struct cache *cache,char * puerto)
         } else {
             fprintf(stderr, "unknown request type \"%s\"\n", request_type);
         }
+        return 0;
     }
     else{
         printf("El servidor recibió 0 bytes de petición\n");
+        return 1;
     }
 }
 
@@ -521,10 +524,12 @@ void *nueva_peticion(void* datos){
     int fd = ((struct datos_thread*)datos) ->fd;
     struct cache* cache = ((struct datos_thread*)datos) ->cachethread;
     char * puerto = ((struct datos_thread*)datos) ->puerto;
-
-    while(1)
-        handle_http_request(fd,cache,puerto);
-
+    while(1) {
+        int retorno = handle_http_request(fd, cache, puerto);
+        if(retorno)
+            break;
+    }
+    close(fd);
 }
 
 /**
@@ -541,9 +546,6 @@ int main(void)
     char smodify[INET6_ADDRSTRLEN];
     pthread_t tid;
     pid_t pid;
-
-
-
 
     //Creación del archivo index.html con los archivos disponibles cuando arranca el servidor
     mainCreateHTML();
@@ -569,7 +571,6 @@ int main(void)
         }
 
         printf("webserver: waiting for connections on port %s...\n", PORT);
-        //pthread_create(&tid,NULL,nueva_peticion,)
 
         while (1) {
 
@@ -595,9 +596,10 @@ int main(void)
             datos_th->cachethread = cache;
             datos_th-> puerto= PORT;
 
+            //printf("THREAD CREADO");
             pthread_create(&tid,NULL,nueva_peticion,(void *) datos_th);
             //handle_http_request(newfd, cache, PORT);
-           // close(newfd);
+            //close(newfd);
         }
     }
     else if(pid < 0)
