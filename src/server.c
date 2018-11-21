@@ -223,7 +223,6 @@ int send_response(int fd, char *header, char *content_type, void *body, int cont
     );
 
     memcpy(response + response_length, body, content_length);
-
     // Send it all!
     ssize_t rv = send(fd, response, response_length + content_length, 0);
 

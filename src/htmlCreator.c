@@ -63,7 +63,7 @@ void createIndexHTML(struct xmlVideo* videoData, int indexBloque){
         fprintf(f, "%s\n", "<div class=\"container-fluid\"> <div class=\"media-container-row\">");
 
     fprintf(f, "%s%s%s", "<div class=\"card p-3 col-12 col-md-6 col-lg-2\">"
-                         "<div class=\"card-wrapper\"><div class=\"card-img\"><a href=\"http://localhost:3940/", videoData->nombre,
+                         "<div class=\"card-wrapper\"><div class=\"card-img\"><a href=\"", videoData->nombre,
             ".mp4\"><img src=\"");
     fprintf(f, "%s", videoData->previewPath);
     fprintf(f, "%s", "\"></a></div><div class=\"card-box\"><h4 class=\"card-title pb-3 mbr-fonts-style display-7\">\n");
