@@ -66,7 +66,7 @@ void createIndexHTML(struct xmlVideo* videoData, int indexBloque){
     fprintf(f, "%s", "\"></a></div><div class=\"card-box\"><h4 class=\"card-title pb-3 mbr-fonts-style display-7\">\n");
     fprintf(f, "%s", videoData->nombre);
     fprintf(f, "%s", "</h4><p class=\"mbr-text mbr-fonts-style display-7\">\n");
-    fprintf(f, "Descripción: %s\nTamaño: %s\nFecha: %s\n", videoData->descripcion, videoData->tamanno, videoData->fecha);
+    fprintf(f, "Descripción: %s<br>\nTamaño: %s<br>\nFecha: %s<br>\n", videoData->descripcion, videoData->tamanno, videoData->fecha);
     fprintf(f, "%s", "</p>\n</div>\n</div></div>");
 
     if(indexBloque == 5)
@@ -87,7 +87,7 @@ void createSlideshowHTML(struct xmlVideo* videoData, int contador){
 
             fprintf(ftmp,"%s\n","<div class=\"carousel-inner\">");
             fprintf(ftmp,"<div class=\"carousel-item active\">\n"
-                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\" class=\"d-block w-100\" src=\"%s\" alt=\"Los Angeles\"></a>\n"
+                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\"  class=\"d-block w-100\" src=\"%s\" alt=\"Los Angeles\"></a>\n"
                          "</div>\n",videoData->nombre,videoData->previewPath);
             break;
 
@@ -96,7 +96,9 @@ void createSlideshowHTML(struct xmlVideo* videoData, int contador){
 
             fprintf(ftmp,"<div class=\"carousel-item\">\n"
                          " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\" class=\"d-block w-100\" src=\"%s\" alt=\"Chicago\"></a>\n"
-                         "</div>\n",videoData->nombre,videoData->previewPath);
+                         "<div class=\"carousel-caption\">\n"
+                         "                            <h3>What we Do</h3>\n"
+                         "                        </div>\n</div>\n",videoData->nombre,videoData->previewPath);
     }
     fclose(fSlide);
     fclose(ftmp);
