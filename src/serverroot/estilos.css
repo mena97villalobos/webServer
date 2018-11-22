@@ -1,0 +1,30 @@
+#myCarousel{
+width: 550px; height:410px; margin-top: 1cm; margin-left:13cm;
+}
+
+.botonGuardar{
+
+border: 1px solid #3261C3;
+border-radius: 5px;
+background: #3775DD;
+background: -moz-linear-gradient(top,#3775DD 0,#3455C1 100%);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#3775DD),color-stop(100%,#3455C1));
+background: -webkit-linear-gradient(top,#3775DD 0,#3455C1 100%);
+background: -o-linear-gradient(top,#3775DD 0,#3455C1 100%);
+background: linear-gradient(to bottom,#3775DD 0,#3455C1 100%);
+-webkit-box-shadow: 0 2px 6px -2px rgba(0, 0, 0, .7),inset 0 1px 2px 0 rgba(255, 255, 255, 0.5);
+box-shadow: 0 2px 6px -2px rgba(0, 0, 0, .7),inset 0 1px 2px 0 rgba(255, 255, 255, 0.5);
+height: 32px;
+color:white;
+box-sizing:none;
+font-size:1em;
+padding:20px;
+line-height:0;/*LOL, I put 0*/
+transition:all 0.3s;
+margin-left:90px;
+}
+.botonGuardar:hover
+{
+  box-shadow:0 -5px 10px #3455C1 inset;
+  color:#96bcfc;
+}

@@ -91,7 +91,7 @@ void createSlideshowHTML(struct xmlVideo* videoData, int contador){
 
             fprintf(ftmp,"%s\n","<div class=\"carousel-inner\">");
             fprintf(ftmp,"<div class=\"carousel-item active\">\n"
-                         " <a href= \"%s.mp4\"> <img  src=\"%s\" alt=\"Los Angeles\"></a>\n"
+                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\" class=\"d-block w-100\" src=\"%s\" alt=\"Los Angeles\"></a>\n"
                          "</div>\n",videoData->nombre,videoData->previewPath);
             break;
 
@@ -99,7 +99,7 @@ void createSlideshowHTML(struct xmlVideo* videoData, int contador){
             fprintf(fSlide,"<li data-target=\"#myCarousel\" data-slide-to=\"%i\"></li>\n",contador);
 
             fprintf(ftmp,"<div class=\"carousel-item\">\n"
-                         " <a href= \"%s.mp4\"> <img src=\"%s\" alt=\"Chicago\"></a>\n"
+                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\" class=\"d-block w-100\" src=\"%s\" alt=\"Chicago\"></a>\n"
                          "</div>\n",videoData->nombre,videoData->previewPath);
     }
     fclose(fSlide);
@@ -240,7 +240,7 @@ void mainCreateHTML(){
     if(!bloqueCerrado)
         fprintf(fIndex, "%s\n", "</div></div>");
 
-    fprintf(fIndex,"%s", "<a href=\"slideshow.html\" >Ir a Slideshow</a> <br> <br>");
+    fprintf(fIndex,"%s", "<a class=\" botonGuardar \" href=\"slideshow.html\" >Ir a Slideshow</a> <br> <br>");
     fprintf(fIndex, "%s", (char*)htmlFootData->data);
 
     fprintf(fAdmin, "%s%s", "</div>\n</section>", (char*)htmlFootData->data);
