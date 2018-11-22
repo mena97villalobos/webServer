@@ -38,10 +38,13 @@ struct datos_thread{
 };
 
 void annadirEntradaBitacora(char* entrada){
+    time_t t1 = time(NULL);
+    struct tm *ltime = localtime(&t1);
+
     FILE* fd = fopen(PATH_BITACORA, "a");
     flock(fd, LOCK_EX);
 
-    fprintf(fd, "%s\n", entrada);
+    fprintf(fd, "%s%s\n", asctime(ltime), entrada);
 
     flock(fd, LOCK_UN);
     fclose(fd);
@@ -84,6 +87,7 @@ void calculateMD5(){
         }
         else{
             annadirEntradaBitacora("Las sumas md5 son diferentes\n");
+            mainCreateHTML();
         }
         flock(fd, LOCK_UN);
         fclose(fd);
@@ -496,7 +500,7 @@ int main(void){
                           get_in_addr((struct sockaddr *) &their_addr),
                           s, sizeof s);
                 printf("server: got connection from %s\n", s);
-                sprintf(entradaLog, "%s%s\n", "server: got connection from %s\n", s);
+                sprintf(entradaLog, "%s%s\n", "server: got connection from \n", s);
                 annadirEntradaBitacora(entradaLog);
 
 
@@ -531,7 +535,7 @@ int main(void){
                           smodify, sizeof smodify);
 
 
-                sprintf(entradaLog, "%s%s\n", "server: got connection from %s\n", smodify);
+                sprintf(entradaLog, "%s%s\n", "server: got connection from \n", smodify);
                 annadirEntradaBitacora(entradaLog);
 
                 printf("server: got connection from %s\n", smodify); //TODO bitacora
