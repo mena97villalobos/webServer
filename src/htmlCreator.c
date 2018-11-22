@@ -29,7 +29,7 @@ void createAdminHTML(struct xmlVideo* videoData){
     FILE* f = fopen("../src/serverroot/admin.html", "a");
 
     fprintf(f, "%s\n", "<br></br><div class=\"row\"><div class=\"col-md-6\">\n");
-    fprintf(f, "%s%s%s\n", "<img src=\"", videoData->previewPath, "\">\n");
+    fprintf(f, "%s%s%s\n", "<img width =\"250\" height= \"250\" src=\"", videoData->previewPath, "\">\n");
     fprintf(f, "%s\n", "</div><div class=\"col-md-6\"><h2 class=\"pb-3 align-left mbr-fonts-style display-2\">"
                        "</h2><div><div class=\"icon-block pb-3\">"
                        "<h4 class=\"icon-block__title align-left mbr-fonts-style display-5\">");

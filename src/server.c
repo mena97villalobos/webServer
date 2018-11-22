@@ -140,7 +140,7 @@ void modificar_info_video(char * parametros) {
 }
 
 void dividir_request_path(char *request_divided[], char request_path[]){
-   request_divided[0]= strtok(request_path, "?");
+    request_divided[0]= strtok(request_path, "?");
     int i =0;
     while(request_divided[i]!= NULL){
         i++;
@@ -154,16 +154,16 @@ int send_response(int fd, char *header, char *content_type, void *body, int cont
     struct tm *ltime = localtime(&t1);
 
     int response_length = sprintf(response,
-        "%s\n"
-        "Date: %s" // asctime adds its own newline
-        "Connection: close\n"
-        "Content-Length: %d\n"
-        "Content-Type: %s\n"
-        "\n", // End of HTTP header
-        header,
-        asctime(ltime),
-        content_length,
-        content_type
+                                  "%s\n"
+                                  "Date: %s" // asctime adds its own newline
+                                  "Connection: close\n"
+                                  "Content-Length: %d\n"
+                                  "Content-Type: %s\n"
+                                  "\n", // End of HTTP header
+                                  header,
+                                  asctime(ltime),
+                                  content_length,
+                                  content_type
     );
 
     memcpy(response + response_length, body, content_length);
@@ -178,7 +178,7 @@ int send_response(int fd, char *header, char *content_type, void *body, int cont
 
 void resp_404(int fd) {
     char filepath[4096];
-    struct file_data *filedata; 
+    struct file_data *filedata;
     char *mime_type;
 
     sprintf(filepath, "%s/404.html", SERVER_FILES);
@@ -199,7 +199,7 @@ void resp_404(int fd) {
 
 int get_file_or_cache(int fd, struct cache *cache, char *filepath)
 {
-    struct file_data *filedata; 
+    struct file_data *filedata;
     struct cache_entry *cacheent;
     char *mime_type;
 
@@ -358,8 +358,8 @@ int handle_http_request(int fd, struct cache *cache, char * puerto)
                 resp_404(fd);
             }
             else if(strcmp(request_path_div[0],"/ingresar") == 0){
-               int tienePermiso = verificar_login(request_path_div[1]);
-               get_file(fd, cache, "/", puerto, tienePermiso);
+                int tienePermiso = verificar_login(request_path_div[1]);
+                get_file(fd, cache, "/", puerto, tienePermiso);
             }
             else
                 get_file(fd, cache, request_path, puerto,(int)NULL);
@@ -487,4 +487,3 @@ int main(void){
     }
     return 0;
 }
-
