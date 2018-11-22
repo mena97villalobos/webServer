@@ -31,7 +31,6 @@
 #define PATH_BITACORA "../src/serverfiles/serverLog.log"
 #define PATH_MD5_SUM "../src/serverfiles/sumaMD5.txt"
 
-
 struct datos_thread{
     int fd;
     struct cache* cachethread;
@@ -145,8 +144,10 @@ void modificar_info_video(char * parametros) {
     sprintf(path_nuevomp4, "%s/%s.%s",SERVER_ROOT,valores_parametros_tmp[1],"mp4");
     fp = fopen(path_archivoxml_modificar, "r");
     fp_tmp = fopen(path_tmp,"w");
-    if (fp == NULL || fp_tmp == NULL)
+    if (fp == NULL || fp_tmp == NULL){
         perror("Error al abrir o crear el archivo");
+        remove(path_tmp);
+    }
     else {
         int contador = 0;
         int posiciones[] = {1,2,4};
