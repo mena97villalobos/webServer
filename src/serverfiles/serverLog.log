@@ -2524,3 +2524,435 @@ server: got connection from %s
 127.0.0.1
 
 REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Archivos index.html y admin.html actualizados
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+REQUEST:  GET /cat.jpg HTTP/1.1
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /auxilioMeDesmayo.mp4 HTTP/1.1
+REQUEST:  GET /auxilioMeDesmayo.mp4 HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /noEsTrumpNiObama.mp4 HTTP/1.1
+REQUEST:  GET /noEsTrumpNiObama.mp4 HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /noEsTrumpNiObama.mp4 HTTP/1.1
+REQUEST:  GET /noEsTrumpNiObama.mp4 HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /slideshow.html HTTP/1.1
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+REQUEST:  GET /despacio.jpg HTTP/1.1
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+REQUEST:  GET /despacio.jpg HTTP/1.1
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+REQUEST:  GET /cat.jpg HTTP/1.1
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+REQUEST:  GET /dino.jpg HTTP/1.1
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
