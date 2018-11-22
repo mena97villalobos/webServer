@@ -144,9 +144,10 @@ void modificar_info_video(char * parametros) {
     sprintf(path_tmp,"%s/%s",SERVER_ROOT,tmp);
     sprintf(valores_parametros_tmp[0], "%s.xml", valores_parametros_tmp[0]);
     sprintf(valores_parametros_tmpvid, "%s.mp4", valores_parametros_tmpvid);
+
     sprintf(valores_xml[0], "    <nombre>%s</nombre>\n",valores_parametros_tmp[1]);
-    sprintf(valores_xml[1], "    <descripcion>%s</descripcion>\n",valores_parametros_tmp[2]);
-    sprintf(valores_xml[2], "    <fecha>%s</fecha>\n",valores_parametros_tmp[3]);
+    sprintf(valores_xml[1], "    <descripcion>%s</descripcion>\n",valores_parametros_tmp[3]);
+    sprintf(valores_xml[2], "    <fecha>%s</fecha>\n",valores_parametros_tmp[2]);
     sprintf(path_archivoxml_modificar, "%s/%s", SERVER_ROOT, valores_parametros_tmp[0]);
     sprintf(path_archivomp4_modificar, "%s/%s", SERVER_ROOT, valores_parametros_tmpvid);
     sprintf(path_nuevoxml, "%s/%s.%s",SERVER_ROOT,valores_parametros_tmp[1],"xml");
@@ -394,6 +395,9 @@ int handle_http_request(int fd, struct cache *cache, char * puerto)
 
         strcpy(request_path_copy, request_path);
         dividir_request_path(request_path_div, request_path_copy);
+
+        printf("Agarrando Parametros \n %s",request_path_div[1]);
+
         if (strcmp(request_type, "GET") == 0) {
             if (strcmp(request_path_div[0], "/admin.html") == 0) { //TODO cambiar al archivo admin.html
                 annadirEntradaBitacora("Error intento de entrar como administrador");
@@ -403,6 +407,10 @@ int handle_http_request(int fd, struct cache *cache, char * puerto)
                 int tienePermiso = verificar_login(request_path_div[1]);
                 get_file(fd, cache, "/", puerto, tienePermiso);
             }
+            else if (strcmp(request_path_div[0], "/modificarXML") == 0) {
+                modificar_info_video(request_path_div[1]); //Envia los parametros de modificacion
+                get_file(fd, cache, "/", puerto, 1); //No es necesario este valor
+            }
             else
                 get_file(fd, cache, request_path, puerto,(int)NULL);
         }
@@ -410,10 +418,6 @@ int handle_http_request(int fd, struct cache *cache, char * puerto)
             // Endpoint "/save"
             if (strcmp(request_path, "/save") == 0) {
                 post_save(fd, body);
-            }
-            else if (strcmp(request_path_div[0], "/modificarXML") == 0) {
-                modificar_info_video(request_path_div[1]); //Envia los parametros de modificacion
-                get_file(fd, cache, "/", puerto, 1); //No es necesario este valor
             }
             else {
                 resp_404(fd);

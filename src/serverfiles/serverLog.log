@@ -338,3 +338,1721 @@ REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Archivos index.html y admin.html actualizados
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /ingresar?titulo=admin&pass=adin HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css.map HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /modificarXML?nombvideo=hola&fechavideo=0003-02-03&descvideo=sdvsdv HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son diferentes
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son diferentes
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Archivos index.html y admin.html actualizados
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css.map HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Archivos index.html y admin.html actualizados
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css.map HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Archivos index.html y admin.html actualizados
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css.map HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css.map HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css.map HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /modificarXML?nombvideo=wapisrun&fechavideo=2018-03-04&descvideo=hola+jejeje HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son diferentes
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Archivos index.html y admin.html actualizados
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /modificarXML?nombOriginal=despacito&nombvideo=wapisrun&fechavideo=0005-03-04&descvideo=hola+jeje HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son diferentes
+
+Archivos index.html y admin.html actualizados
+
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET / HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /estilos.css HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /dino.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /despacio.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /cat.jpg HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+server: got connection from %s
+127.0.0.1
+
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor

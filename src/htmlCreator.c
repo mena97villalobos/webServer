@@ -33,14 +33,14 @@ void createAdminHTML(struct xmlVideo* videoData){
     fprintf(f, "%s\n", "</div><div class=\"col-md-6\"><h2 class=\"pb-3 align-left mbr-fonts-style display-2\">"
                        "</h2><div><div class=\"icon-block pb-3\">"
                        "<h4 class=\"icon-block__title align-left mbr-fonts-style display-5\">");
-    fprintf(f, "%s%s%s%s\n", videoData->nombre, "</h4></div><div class=\"icon-contacts pb-3\">"
+    fprintf(f, "%s%s%s%s%s%s\n", videoData->nombre, "</h4></div><div class=\"icon-contacts pb-3\">"
                                             "<h5 class=\"align-left mbr-fonts-style display-7\"></h5>\n"
                                             "<p class=\"mbr-text align-left mbr-fonts-style display-7\"></p></div>\n"
                                             "</div><div><div data-form-alert=\"\" "
-                                            "hidden=\"\">Solicitud de modificación enviada!</div><form method=\"POST\" "
+                                            "hidden=\"\">Solicitud de modificación enviada!</div><form method=\"get\" "
                                             "action=\"/modificarXML\" enctype=\"multipart/form-data\"><div class=\"row\">\n"
                                             "<div class=\"col-md-6 multi-horizontal\">\n"
-                                            "<input type=\"text\" class=\"form-control input\" data-form-field=\"Titulo\" "
+                                            "<input name =\"nombOriginal\" type = \"hidden\"  value=\"",videoData->nombre,"\" ><input type=\"text\" class=\"form-control input\" data-form-field=\"Titulo\" "
                                             "placeholder=\"", videoData->nombre, "\" required=\"\" name = \"nombvideo\">");
     fprintf(f, "%s%s%s%s%s\n", "</div><div class=\"col-md-6 multi-horizontal\">\n"
                        "<input type=\"date\" name = \"fechavideo\" class=\"form-control input\" value=\"", videoData->fecha,
