@@ -36,21 +36,17 @@ void createAdminHTML(struct xmlVideo* videoData){
     fprintf(f, "%s%s%s%s\n", videoData->nombre, "</h4></div><div class=\"icon-contacts pb-3\">"
                                             "<h5 class=\"align-left mbr-fonts-style display-7\"></h5>\n"
                                             "<p class=\"mbr-text align-left mbr-fonts-style display-7\"></p></div>\n"
-                                            "</div><div data-form-type=\"formoid\"><div data-form-alert=\"\" "
+                                            "</div><div><div data-form-alert=\"\" "
                                             "hidden=\"\">Solicitud de modificación enviada!</div><form method=\"POST\" "
-                                            "action=\"/modificar\" enctype=\"multipart/form-data\"><div class=\"row\">\n"
-                                            "<div class=\"col-md-6 multi-horizontal\" data-for=\"titulo\">\n"
+                                            "action=\"/modificarXML\" enctype=\"multipart/form-data\"><div class=\"row\">\n"
+                                            "<div class=\"col-md-6 multi-horizontal\">\n"
                                             "<input type=\"text\" class=\"form-control input\" data-form-field=\"Titulo\" "
-                                            "placeholder=\"", videoData->nombre, "\" required=\"\" id=\"titulo-form4-9\" "
-                                            "name = \"titulo\">");
-    fprintf(f, "%s%s%s%s%s\n", "</div><div class=\"col-md-6 multi-horizontal\" data-for=\"fecha\">\n"
-                       "<input type=\"date\" class=\"form-control input\" name=\"bday\" value=\"", videoData->fecha,
-                       "\">\n"
-                       "</div>\n"
-                       "<div class=\"col-md-12\" data-for=\"descripcion\">\n"
-                       "<textarea class=\"form-control input\" name=\"descripcion\" rows=\"3\" "
-                       "data-form-field=\"Descripción\"  style=\"resize:none\" id=\"descripcion-form4-9\" placeholder=\"",
-                       videoData->descripcion, "\"></textarea></div>\n<div class=\"input-group-btn col-md-12\" style=\"margin-top: 10px;\">\n"
+                                            "placeholder=\"", videoData->nombre, "\" required=\"\" name = \"nombvideo\">");
+    fprintf(f, "%s%s%s%s%s\n", "</div><div class=\"col-md-6 multi-horizontal\">\n"
+                       "<input type=\"date\" name = \"fechavideo\" class=\"form-control input\" value=\"", videoData->fecha,
+                       "\">\n</div>\n<div class=\"col-md-12\">\n<textarea class=\"form-control input\" name=\"descvideo\" rows=\"3\" "
+                       "data-form-field=\"Descripción\"  style=\"resize:none\"  placeholder=\"", videoData->descripcion,
+                       "\"></textarea></div>\n<div class=\"input-group-btn col-md-12\" style=\"margin-top: 10px;\">\n"
                        "<button href=\"\" type=\"submit\" class=\"btn btn-primary btn-form display-4\">MODIFICAR</button>\n"
                        "</div></div></form></div></div></div> <br></br>");
     fclose(f);
@@ -201,7 +197,7 @@ void mainCreateHTML(){
 
     FILE* fAdmin = fopen("../src/serverroot/admin.html", "w");
     fprintf(fAdmin, "%s%s\n", (char*)htmlHeaderData->data,
-            "<section class=\"mbr-section form4 cid-r9XKgEVrj2\" id=\"form4-9\"><div class=\"container\"");
+            "<section class=\"mbr-section form4 cid-r9XKgEVrj2\" id=\"form4-9\"><div class=\"container\">");
     fclose(fAdmin);
 
     if(d) {
