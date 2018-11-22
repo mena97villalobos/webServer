@@ -14,7 +14,7 @@ struct xmlVideo{
 };
 
 
-void mainCreateHTML();
+void mainCreateHTML(char*);
 struct xmlVideo* parseData(char*);
 void createIndexHTML(struct xmlVideo*, int);
 void createAdminHTML(struct xmlVideo*);

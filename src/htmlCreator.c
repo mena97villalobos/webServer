@@ -171,7 +171,7 @@ struct xmlVideo* parseData(char* datos){
 
 }
 
-void mainCreateHTML(){
+void mainCreateHTML(char* time){
     DIR *d;
     struct dirent *dir;
     d = opendir(PATH_XML);
@@ -235,17 +235,21 @@ void mainCreateHTML(){
     if(!bloqueCerrado)
         fprintf(fIndex, "%s\n", "</div></div>");
 
-    time_t t1 = time(NULL);
-    struct tm *ltime = localtime(&t1);
-    /* //TODO Revisar para hacer validación
-    fprintf(fIndex, "\n%s\n", "<script>$.get('/actualizarTiempo' + name, function(response) {\n"
-                              "  alert(response);\n"
-                              "});</script>");
-    fprintf(fIndex, "\n%s%s%s\n", "<script>var worker = new Worker('../src/serverfiles/changeChecker.js'); "
-                                  "var $ultimaVezActualizado = \"", asctime(ltime),
-                                  "\"; worker.postMessage($ultimaVezActualizado);</script>");
+    fprintf(fIndex, "\n%s%s%s\n", "<script>"
+                                  "setInterval(actualizar, 10000);\n"
+                                  "function actualizar(){"
+                                  "\tvar lastUpdate = \"", time,
+                                  "\";\n\tvar request = new XMLHttpRequest();\n"
+                                  "\trequest.open('GET', \"/actualizarIndex\");\n"
+                                  "\trequest.responseType = 'text';\n\trequest.send();\n"
+                                  "\trequest.onload = function(){\n"
+                                  "\t\tvar lastUpdateServer = request.response;\n"
+                                  "\t\tif(lastUpdate !== lastUpdateServer){\n"
+                                  "\t\t\tif(window.confirm(\"Se detectaron nuevos cambios en el servidor, recargar?\"))"
+                                  "{\n\t\t\t\tlocation.reload();\n\t\t\t}\n"
+                                  "\t\t}\n"
+                                  "\t};\n}</script>");
 
-    */
     fprintf(fIndex,"%s", "<a class=\" botonGuardar \" href=\"slideshow.html\" >Ir a Slideshow</a> <br> <br>");
     fprintf(fIndex, "%s", (char*)htmlFootData->data);
 

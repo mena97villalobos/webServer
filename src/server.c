@@ -21,6 +21,10 @@
 #include <sys/resource.h>
 #include <htmlCreator.h>
 #include <pthread.h>
+#include <sys/shm.h>
+#include <semaphore.h>
+#include <fcntl.h>
+
 
 #define PORT "3940"  // the port users will be connecting to
 #define PORT_MODIFY "5555"
@@ -35,6 +39,8 @@ struct datos_thread{
     int fd;
     struct cache* cachethread;
     char * puerto;
+    sem_t* sem;
+    char* timeUpdate;
 };
 
 void annadirEntradaBitacora(char* entrada){
@@ -50,7 +56,7 @@ void annadirEntradaBitacora(char* entrada){
     fclose(fd);
 }
 
-void calculateMD5(){
+void calculateMD5(sem_t* sem, char* timeUpdate){
     while(1) {
         char ultimaSuma[37];
         char sumaActual[37];
@@ -84,8 +90,20 @@ void calculateMD5(){
             annadirEntradaBitacora("Las sumas md5 son iguales, no hay cambios en los archivos del servidor");
         }
         else{
+            time_t t1 = time(NULL);
+            struct tm *ltime = localtime(&t1);
+            char tiempoString[26];
+            asctime_r(ltime, tiempoString);
+            tiempoString[24] = tiempoString[25];
             annadirEntradaBitacora("Las sumas md5 son diferentes\n");
-            mainCreateHTML();
+
+            //Actualizar variable compartida de tiempo
+            sem_wait(sem);
+            memcpy(timeUpdate, tiempoString, 24);
+            printf("Tiempo de ultima refresh actualizado\n");
+            sem_post(sem);
+
+            mainCreateHTML(tiempoString);
         }
         flock(fd, LOCK_UN);
         fclose(fd);
@@ -288,7 +306,7 @@ char *find_start_of_body(char *header) {
     return p;
 }
 
-int handle_http_request(int fd, struct cache *cache, char * puerto) {
+int handle_http_request(int fd, struct cache *cache, char * puerto, sem_t* sem, char* timeUpdate) {
     const int request_buffer_size = 65536; // 64K
     char request[request_buffer_size];
     char *p;
@@ -322,8 +340,8 @@ int handle_http_request(int fd, struct cache *cache, char * puerto) {
         dividir_request_path(request_path_div, request_path_copy);
         printf("Agarrando Parametros \n %s",request_path_div[1]);
         if (strcmp(request_type, "GET") == 0) {
-            if(strcmp(request_path_div[0], "/actualizarTiempo") == 0){
-                send_response(fd, "HTTP/1.1 200 OK", "text/plain", "hoy hijueputa", 14);
+            if(strcmp(request_path_div[0], "/actualizarIndex") == 0){
+                send_response(fd, "HTTP/1.1 200 OK", "text/plain", timeUpdate, 24);
             }
             else if (strcmp(request_path_div[0], "/admin.html") == 0) {
                 annadirEntradaBitacora("Error intento de entrar como administrador");
@@ -360,11 +378,12 @@ int handle_http_request(int fd, struct cache *cache, char * puerto) {
 }
 
 void* nueva_peticion(void* datos){
-    int fd = ((struct datos_thread*)datos) ->fd;
-    struct cache* cache = ((struct datos_thread*)datos) ->cachethread;
-    char * puerto = ((struct datos_thread*)datos) ->puerto;
+    struct datos_thread* d = (struct datos_thread*)datos;
+    int fd = d->fd;
+    struct cache* cache = d->cachethread;
+    char * puerto = d->puerto;
     while(1) {
-        int retorno = handle_http_request(fd, cache, puerto);
+        int retorno = handle_http_request(fd, cache, puerto, d->sem, d->timeUpdate);
         if(retorno)
             break;
     }
@@ -382,20 +401,43 @@ int main(void){
     pthread_t tid;
     pid_t pid;
 
+    time_t t1 = time(NULL);
+    struct tm *ltime = localtime(&t1);
+    char tiempoString[26];
+    asctime_r(ltime, tiempoString);
+    tiempoString[24] = tiempoString[25];
+
     //Creación del archivo index.html con los archivos disponibles cuando arranca el servidor
-    mainCreateHTML();
+    mainCreateHTML(tiempoString);
     annadirEntradaBitacora("Archivos index.html y admin.html actualizados\n");
+
+    //Semaforo para ultima vez actualizado
+    char* timeUpdate;
+    key_t shmkey;                 //shared memory key
+    int shmid;                    //shared memory id
+    sem_t *sem;                   //synch semaphore
+    shmkey = ftok("/dev/null", 5);
+    shmid = shmget(shmkey, 26*sizeof(char), 0644 | IPC_CREAT);
+    if (shmid < 0){
+        perror("shmget\n");
+        exit (1);
+    }
+    timeUpdate = (char *) shmat(shmid, NULL, 0);
+    memcpy(timeUpdate, tiempoString, 24);
+    sem = sem_open ("pSem", O_CREAT | O_EXCL, 0644, 1);
+    //
+
 
     // struct cache *cache = cache_create(10, 0);
     struct cache *cachemodify = cache_create(10,0);
 
     pid = fork();
-    if(pid != 0){
+    if(pid > 0){
         int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
                          "../src/serverfiles/sumaMD5.txt");
-        calculateMD5();
+        calculateMD5(sem, timeUpdate);
     }
-    else {
+    else if(pid == 0){
         pid = fork();
         if (pid > 0) {
             int listenfd = get_listener_socket(PORT);
@@ -418,13 +460,15 @@ int main(void){
                 inet_ntop(their_addr.ss_family,
                           get_in_addr((struct sockaddr *) &their_addr),
                           s, sizeof s);
-                printf("server: got connection from %s\n", s);
+                //printf("server: got connection from %s\n", s);
                 sprintf(entradaLog, "%s%s\n", "server: got connection from \n", s);
                 annadirEntradaBitacora(entradaLog);
                 struct datos_thread *datos_th = malloc(sizeof(struct datos_thread));
                 datos_th->fd = newfd;
                 datos_th->cachethread = cache;
                 datos_th->puerto = PORT;
+                datos_th->sem = sem;
+                datos_th->timeUpdate = timeUpdate;
                 pthread_create(&tid, NULL, nueva_peticion, (void *) datos_th);
             }
         } else if (pid < 0)
@@ -450,7 +494,7 @@ int main(void){
                 sprintf(entradaLog, "%s%s\n", "server: got connection from \n", smodify);
                 annadirEntradaBitacora(entradaLog);
                 printf("server: got connection from %s\n", smodify);
-                handle_http_request(newfdmodify, cachemodify, PORT_MODIFY);
+                handle_http_request(newfdmodify, cachemodify, PORT_MODIFY, sem, timeUpdate);
                 close(newfdmodify);
             }
         }
