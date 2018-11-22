@@ -29,6 +29,7 @@
 #define ADMIN_PASS "admin"
 #define ADMIN_USER "admin"
 #define PATH_BITACORA "../src/serverfiles/serverLog.log"
+#define PATH_MD5_SUM "../src/serverfiles/sumaMD5.txt"
 
 struct datos_thread{
     int fd;
@@ -47,7 +48,48 @@ void annadirEntradaBitacora(char* entrada){
 }
 
 
-
+void calculateMD5(){
+    while(1) {
+        char ultimaSuma[37];// = calloc(37, sizeof(char));
+        char sumaActual[37];// = calloc(37, sizeof(char));
+        char c;
+        int len = 0;
+        FILE* fd = fopen(PATH_MD5_SUM, "r");
+        flock(fd, LOCK_EX);
+        fseek(fd, -36, SEEK_END);//next to last char, last is EOF
+        c = (char)fgetc(fd);
+        while(len < 36)//define macro EOL
+        {
+            ultimaSuma[len] = c;
+            fseek(fd, 0, SEEK_CUR);
+            len++;
+            c = (char)fgetc(fd);
+        }
+        ultimaSuma[len] = "\0";
+        int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
+                         "../src/serverfiles/sumaMD5.txt");
+        len = 0;
+        fseek(fd, -36, SEEK_END);//next to last char, last is EOF
+        c = (char)fgetc(fd);
+        while(len < 36)//define macro EOL
+        {
+            sumaActual[len] = c;
+            fseek(fd, 0, SEEK_CUR);
+            len++;
+            c = (char)fgetc(fd);
+        }
+        sumaActual[len] = "\0";
+        if(strcmp(ultimaSuma, sumaActual) == 0){
+            annadirEntradaBitacora("Las sumas md5 son iguales, no hay cambios en los archivos del servidor");
+        }
+        else{
+            annadirEntradaBitacora("Las sumas md5 son diferentes\n");
+        }
+        flock(fd, LOCK_UN);
+        fclose(fd);
+        sleep(10);
+    }
+}
 
 
 void separar_parametros(char valores_param [][1000], char *string_parametros){
@@ -411,78 +453,87 @@ int main(void){
     char entradaLog[INET6_ADDRSTRLEN + 30];
     pthread_t tid;
     pid_t pid;
+
     //Creación del archivo index.html con los archivos disponibles cuando arranca el servidor
     mainCreateHTML();
     annadirEntradaBitacora("Archivos index.html y admin.html actualizados\n");
     //struct cache *cache = cache_create(10, 0);
     struct cache *cachemodify = cache_create(10,0);
+
     pid = fork();
-    if(pid>0) {
-        int listenfd = get_listener_socket(PORT);
-
-        if (listenfd < 0) {
-            fprintf(stderr, "webserver: fatal error getting listening socket\n");
-            annadirEntradaBitacora("webserver: fatal error getting listening socket");
-            exit(1);
-        }
-
-        printf("webserver: waiting for connections on port %s...\n", PORT);
-
-        while (1) {
-            socklen_t sin_size = sizeof their_addr;
-            struct cache *cache = cache_create(10, 0);
-            newfd = accept(listenfd, (struct sockaddr *) &their_addr, &sin_size);
-            if (newfd == -1) {
-                annadirEntradaBitacora("Error con el proceso de aceptación");
-                perror("accept");
-                continue;
-            }
-            inet_ntop(their_addr.ss_family,
-                      get_in_addr((struct sockaddr *) &their_addr),
-                      s, sizeof s);
-            printf("server: got connection from %s\n", s);
-            sprintf(entradaLog, "%s%s\n", "server: got connection from %s\n", s);
-            annadirEntradaBitacora(entradaLog);
-
-
-            struct datos_thread * datos_th = malloc(sizeof(struct datos_thread));
-            datos_th->fd = newfd;
-            datos_th->cachethread = cache;
-            datos_th-> puerto= PORT;
-            pthread_create(&tid,NULL,nueva_peticion,(void *) datos_th);
-        }
+    if(pid != 0){
+        int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
+                         "../src/serverfiles/sumaMD5.txt");
+        calculateMD5();
     }
-    else if(pid < 0)
-        annadirEntradaBitacora("Error Creando FORK");
-    else{
-        int listenfdModify = get_listener_socket(PORT_MODIFY);
+    else {
+        pid = fork();
+        if (pid > 0) {
+            int listenfd = get_listener_socket(PORT);
 
-        if (listenfdModify < 0) {
-            fprintf(stderr, "webserver: fatal error getting listening socket\n");
-            annadirEntradaBitacora("webserver: fatal error getting listening socket");
-            exit(1);
-        }
-
-        printf("webserver: waiting for connections on port %s...\n", PORT_MODIFY);
-
-        while (1) {
-            socklen_t sin_size = sizeof addr_modify;
-            newfdmodify = accept(listenfdModify, (struct sockaddr *) &addr_modify, &sin_size);
-            if (newfdmodify == -1) {
-                annadirEntradaBitacora("Error con el proceso de aceptación");
-                continue;
+            if (listenfd < 0) {
+                fprintf(stderr, "webserver: fatal error getting listening socket\n");
+                annadirEntradaBitacora("webserver: fatal error getting listening socket");
+                exit(1);
             }
-            inet_ntop(addr_modify.ss_family,
-                      get_in_addr((struct sockaddr *) &addr_modify),
-                      smodify, sizeof smodify);
+
+            printf("webserver: waiting for connections on port %s...\n", PORT);
+
+            while (1) {
+                socklen_t sin_size = sizeof their_addr;
+                struct cache *cache = cache_create(10, 0);
+                newfd = accept(listenfd, (struct sockaddr *) &their_addr, &sin_size);
+                if (newfd == -1) {
+                    annadirEntradaBitacora("Error con el proceso de aceptación");
+                    perror("accept");
+                    continue;
+                }
+                inet_ntop(their_addr.ss_family,
+                          get_in_addr((struct sockaddr *) &their_addr),
+                          s, sizeof s);
+                printf("server: got connection from %s\n", s);
+                sprintf(entradaLog, "%s%s\n", "server: got connection from %s\n", s);
+                annadirEntradaBitacora(entradaLog);
 
 
-            sprintf(entradaLog, "%s%s\n", "server: got connection from %s\n", smodify);
-            annadirEntradaBitacora(entradaLog);
+                struct datos_thread *datos_th = malloc(sizeof(struct datos_thread));
+                datos_th->fd = newfd;
+                datos_th->cachethread = cache;
+                datos_th->puerto = PORT;
+                pthread_create(&tid, NULL, nueva_peticion, (void *) datos_th);
+            }
+        } else if (pid < 0)
+            annadirEntradaBitacora("Error Creando FORK");
+        else {
+            int listenfdModify = get_listener_socket(PORT_MODIFY);
 
-            printf("server: got connection from %s\n", smodify); //TODO bitacora
-            handle_http_request(newfdmodify, cachemodify,PORT_MODIFY);
-            close(newfdmodify);
+            if (listenfdModify < 0) {
+                fprintf(stderr, "webserver: fatal error getting listening socket\n");
+                annadirEntradaBitacora("webserver: fatal error getting listening socket");
+                exit(1);
+            }
+
+            printf("webserver: waiting for connections on port %s...\n", PORT_MODIFY);
+
+            while (1) {
+                socklen_t sin_size = sizeof addr_modify;
+                newfdmodify = accept(listenfdModify, (struct sockaddr *) &addr_modify, &sin_size);
+                if (newfdmodify == -1) {
+                    annadirEntradaBitacora("Error con el proceso de aceptación");
+                    continue;
+                }
+                inet_ntop(addr_modify.ss_family,
+                          get_in_addr((struct sockaddr *) &addr_modify),
+                          smodify, sizeof smodify);
+
+
+                sprintf(entradaLog, "%s%s\n", "server: got connection from %s\n", smodify);
+                annadirEntradaBitacora(entradaLog);
+
+                printf("server: got connection from %s\n", smodify); //TODO bitacora
+                handle_http_request(newfdmodify, cachemodify, PORT_MODIFY);
+                close(newfdmodify);
+            }
         }
     }
     return 0;
