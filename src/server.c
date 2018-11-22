@@ -160,8 +160,10 @@ void modificar_info_video(char * parametros) {
     fp = fopen(path_archivoxml_modificar, "r");
     fp_tmp = fopen(path_tmp,"w");
 
-    if (fp == NULL || fp_tmp == NULL)
+    if (fp == NULL || fp_tmp == NULL) {
         perror("Error al abrir o crear el archivo");
+        remove(path_tmp);
+    }
     else {
         int contador = 0;
         int posiciones[] = {1,2,4};
