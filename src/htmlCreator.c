@@ -1,7 +1,3 @@
-//
-// Created by bryan on 16/11/18.
-//
-
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -10,6 +6,7 @@
 #include <regex.h>
 #include <stdio.h>
 #include <dirent.h>
+#include <time.h>
 #include "file.h"
 #include "htmlCreator.h"
 
@@ -40,7 +37,8 @@ void createAdminHTML(struct xmlVideo* videoData){
                                             "hidden=\"\">Solicitud de modificación enviada!</div><form method=\"get\" "
                                             "action=\"/modificarXML\" enctype=\"multipart/form-data\"><div class=\"row\">\n"
                                             "<div class=\"col-md-6 multi-horizontal\">\n"
-                                            "<input name =\"nombOriginal\" type = \"hidden\"  value=\"",videoData->nombre,"\" ><input type=\"text\" class=\"form-control input\" data-form-field=\"Titulo\" "
+                                            "<input name =\"nombOriginal\" type = \"hidden\"  value=\"",videoData->nombre,
+                                            "\" ><input type=\"text\" class=\"form-control input\" data-form-field=\"Titulo\" "
                                             "placeholder=\"", videoData->nombre, "\" required=\"\" name = \"nombvideo\">");
     fprintf(f, "%s%s%s%s%s\n", "</div><div class=\"col-md-6 multi-horizontal\">\n"
                        "<input type=\"date\" name = \"fechavideo\" class=\"form-control input\" value=\"", videoData->fecha,
@@ -173,7 +171,6 @@ struct xmlVideo* parseData(char* datos){
 
 }
 
-
 void mainCreateHTML(){
     DIR *d;
     struct dirent *dir;
@@ -238,6 +235,17 @@ void mainCreateHTML(){
     if(!bloqueCerrado)
         fprintf(fIndex, "%s\n", "</div></div>");
 
+    time_t t1 = time(NULL);
+    struct tm *ltime = localtime(&t1);
+    /* //TODO Revisar para hacer validación
+    fprintf(fIndex, "\n%s\n", "<script>$.get('/actualizarTiempo' + name, function(response) {\n"
+                              "  alert(response);\n"
+                              "});</script>");
+    fprintf(fIndex, "\n%s%s%s\n", "<script>var worker = new Worker('../src/serverfiles/changeChecker.js'); "
+                                  "var $ultimaVezActualizado = \"", asctime(ltime),
+                                  "\"; worker.postMessage($ultimaVezActualizado);</script>");
+
+    */
     fprintf(fIndex,"%s", "<a class=\" botonGuardar \" href=\"slideshow.html\" >Ir a Slideshow</a> <br> <br>");
     fprintf(fIndex, "%s", (char*)htmlFootData->data);
 
