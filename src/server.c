@@ -43,6 +43,117 @@ struct datos_thread{
     char* timeUpdate;
 };
 
+//GLOBAL
+char tiempoString[26];
+
+
+//Variables Compartidas
+long  bytesTransferidos = 0;
+long  solicitudesAtendidas = 0;
+sem_t lockBytes;
+sem_t lockSolicitudes;
+
+
+//Variables Compartidas
+
+struct wrapper{
+    sem_t lockClientes;
+
+    sem_t lockThreads;
+
+    long  clientesDistintos;
+    long threadsCreados;
+    int contadorClientes;
+    char listaClientes[10000][100];
+
+};
+
+
+char *segmentoMemoria;
+struct wrapper * variablesComp;
+
+void establecerMemoriaCompartida(){
+
+    key_t key;
+    int shmid;
+
+    key = ftok("shmfile",65);
+    shmid = shmget(key,sizeof(variablesComp),0666|IPC_CREAT); //0666
+
+    segmentoMemoria = shmat(shmid, (void *)0, 0);
+    variablesComp = (struct wrapper*)segmentoMemoria;
+    variablesComp->clientesDistintos = 0;
+    variablesComp->threadsCreados = 0;
+    variablesComp->contadorClientes = 0;
+
+}
+
+void crearCandado(){
+
+    sem_init(&variablesComp->lockClientes, 1,1);
+    sem_init(&variablesComp->lockThreads,1,1);
+    sem_init(&lockBytes,0,1);
+    sem_init(&lockSolicitudes,0,1);
+}
+
+void modificarThreads(){
+
+    sem_wait(&variablesComp->lockThreads);
+        variablesComp->threadsCreados+=1;
+    sem_post(&variablesComp->lockThreads);
+
+}
+
+int clienteExiste(char cliente[]){
+    printf("VIENDO CLIENTE: %s\n",cliente);
+    if(variablesComp->contadorClientes == 0) {
+        strcpy(variablesComp->listaClientes[variablesComp->contadorClientes], cliente);
+        variablesComp->contadorClientes+=1;
+
+        return 0;
+    }else{
+        for(int i =0; i<variablesComp->contadorClientes;i++){
+            if(!strcmp(variablesComp->listaClientes[i],cliente))
+                return 1;
+        }
+        variablesComp->contadorClientes+=1;
+        strcpy(variablesComp->listaClientes[variablesComp->contadorClientes], cliente);
+    }
+    return 0;
+}
+
+void modificarClientes(char cliente[]){
+
+    sem_wait(&variablesComp->lockClientes);
+
+
+    if(!clienteExiste(cliente))
+        variablesComp->clientesDistintos+=1;
+
+    for(int i =0;i<variablesComp->contadorClientes;i++){
+        printf("Cliente Consultado: %s\n",variablesComp->listaClientes[i]);
+    }
+    printf("FIN\n");
+
+    sem_post(&variablesComp->lockClientes);
+}
+
+void modificarBytes(int nuevosBytes){
+    sem_wait(&lockBytes);
+
+    bytesTransferidos= bytesTransferidos + nuevosBytes;
+
+    sem_post(&lockBytes);
+}
+
+void modificarSolicitudes(){
+    sem_wait(&lockSolicitudes);
+
+    solicitudesAtendidas+=1;
+
+    sem_post(&lockSolicitudes);
+}
+
 void annadirEntradaBitacora(char* entrada){
     time_t t1 = time(NULL);
     struct tm *ltime = localtime(&t1);
@@ -198,7 +309,7 @@ void dividir_request_path(char *request_divided[], char request_path[]){
     }
 }
 
-int send_response(int fd, char *header, char *content_type, void *body, int content_length) {
+int send_response(int fd, char *header, char *content_type, void *body, int content_length){
     char* response = calloc(content_length + 1024, sizeof(char));
     time_t t1 = time(NULL);
     struct tm *ltime = localtime(&t1);
@@ -206,6 +317,8 @@ int send_response(int fd, char *header, char *content_type, void *body, int cont
                                   "\n", header, asctime(ltime), content_length, content_type);
     memcpy(response + response_length, body, content_length);
     ssize_t rv = send(fd, response, response_length + content_length, 0);
+    modificarBytes(response_length + content_length);
+
     free(response);
     if (rv < 0) {
         perror("send");
@@ -306,7 +419,7 @@ char *find_start_of_body(char *header) {
     return p;
 }
 
-int handle_http_request(int fd, struct cache *cache, char * puerto, sem_t* sem, char* timeUpdate) {
+int handle_http_request(int fd, struct cache *cache, char * puerto/*, sem_t* sem, char* timeUpdate*/) {
     const int request_buffer_size = 65536; // 64K
     char request[request_buffer_size];
     char *p;
@@ -322,6 +435,11 @@ int handle_http_request(int fd, struct cache *cache, char * puerto, sem_t* sem, 
         return 1;
     }
     if(bytes_recvd > 0) {
+        if(!strcmp(puerto,PORT)) {
+            modificarBytes(bytes_recvd);
+            modificarSolicitudes();
+        }
+
         request[bytes_recvd] = '\0';
         p = find_start_of_body(request);
         if (p == NULL) {
@@ -335,13 +453,13 @@ int handle_http_request(int fd, struct cache *cache, char * puerto, sem_t* sem, 
         char entradaLog[1200];
         sprintf(entradaLog, "%s %s %s %s", "REQUEST: ", request_type, request_path, request_protocol);
         annadirEntradaBitacora(entradaLog);
-        printf("REQUEST: %s %s %s\n", request_type, request_path, request_protocol);
+        //printf("REQUEST: %s %s %s\n", request_type, request_path, request_protocol);
         strcpy(request_path_copy, request_path);
         dividir_request_path(request_path_div, request_path_copy);
-        printf("Agarrando Parametros \n %s",request_path_div[1]);
+
         if (strcmp(request_type, "GET") == 0) {
             if(strcmp(request_path_div[0], "/actualizarIndex") == 0){
-                send_response(fd, "HTTP/1.1 200 OK", "text/plain", timeUpdate, 24);
+               // send_response(fd, "HTTP/1.1 200 OK", "text/plain", timeUpdate, 24);
             }
             else if (strcmp(request_path_div[0], "/admin.html") == 0) {
                 annadirEntradaBitacora("Error intento de entrar como administrador");
@@ -383,11 +501,53 @@ void* nueva_peticion(void* datos){
     struct cache* cache = d->cachethread;
     char * puerto = d->puerto;
     while(1) {
-        int retorno = handle_http_request(fd, cache, puerto, d->sem, d->timeUpdate);
+        int retorno = handle_http_request(fd, cache, puerto/*, d->sem, d->timeUpdate*/);
         if(retorno)
             break;
     }
     close(fd);
+}
+
+void imprimirMenu(){
+
+    printf(" 1) Ver Hora de Inicio\n 2) Ver Cantidad de Bytes Transferidos\n 3) Ver Cantidad de Clientes y Administradores que Han Consultado\n"
+           " 4) Ver Cantidad de Solicitudes Atendidas de Clientes\n 5) Ver Cantidad de Threads Creados \n");
+
+}
+
+void realizarAccionAdministrador(int opcion){
+    switch(opcion){
+        case 1:
+            printf("Servidor Iniciado a las: %s\n",tiempoString);
+            break;
+        case 2:
+            printf("Bytes Transferidos en Total: %ld \n",bytesTransferidos);
+            break;
+        case 3:
+            printf("Total de Clientes y Administradores Conectados: %ld\n",variablesComp->clientesDistintos);
+            break;
+        case 4:
+            printf("Total de Solicitudes Atendidas: %ld\n",solicitudesAtendidas);
+            break;
+        case 5:
+            printf("Total de Threads Creados: %ld\n",variablesComp->threadsCreados);
+            break;
+        default:
+            printf("Valor incorrecto. Intente de nuevo.\n");
+    }
+}
+
+void* menu_administrador(){
+    int opcionSeleccionada;
+    while(1){
+        imprimirMenu();
+        printf("Seleccione una Opción");
+        scanf("%i",&opcionSeleccionada);
+
+        realizarAccionAdministrador(opcionSeleccionada);
+
+        getchar();
+    }
 }
 
 int main(void){
@@ -399,11 +559,13 @@ int main(void){
     char smodify[INET6_ADDRSTRLEN];
     char entradaLog[INET6_ADDRSTRLEN + 30];
     pthread_t tid;
+    pthread_t tidadmin;
+    pthread_t menuAdmin;
     pid_t pid;
 
     time_t t1 = time(NULL);
     struct tm *ltime = localtime(&t1);
-    char tiempoString[26];
+
     asctime_r(ltime, tiempoString);
     tiempoString[24] = tiempoString[25];
 
@@ -412,7 +574,7 @@ int main(void){
     annadirEntradaBitacora("Archivos index.html y admin.html actualizados\n");
 
     //Semaforo para ultima vez actualizado
-    char* timeUpdate;
+    /*char* timeUpdate;
     key_t shmkey;                 //shared memory key
     int shmid;                    //shared memory id
     sem_t *sem;                   //synch semaphore
@@ -424,22 +586,31 @@ int main(void){
     }
     timeUpdate = (char *) shmat(shmid, NULL, 0);
     memcpy(timeUpdate, tiempoString, 24);
-    sem = sem_open ("pSem", O_CREAT | O_EXCL, 0644, 1);
+    sem = sem_open ("pSem", O_CREAT | O_EXCL, 0644, 1);*/
     //
 
 
     // struct cache *cache = cache_create(10, 0);
     struct cache *cachemodify = cache_create(10,0);
 
+    establecerMemoriaCompartida();
+    crearCandado();
+
     pid = fork();
     if(pid > 0){
-        int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
-                         "../src/serverfiles/sumaMD5.txt");
-        calculateMD5(sem, timeUpdate);
+        //int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
+        //                 "../src/serverfiles/sumaMD5.txt");
+        //calculateMD5(sem, timeUpdate);
+        while(1){
+
+        }
     }
     else if(pid == 0){
         pid = fork();
         if (pid > 0) {
+
+            pthread_create(&menuAdmin,NULL,menu_administrador,NULL);
+
             int listenfd = get_listener_socket(PORT);
 
             if (listenfd < 0) {
@@ -463,17 +634,23 @@ int main(void){
                 //printf("server: got connection from %s\n", s);
                 sprintf(entradaLog, "%s%s\n", "server: got connection from \n", s);
                 annadirEntradaBitacora(entradaLog);
+
+                modificarClientes(s);
+
                 struct datos_thread *datos_th = malloc(sizeof(struct datos_thread));
                 datos_th->fd = newfd;
                 datos_th->cachethread = cache;
                 datos_th->puerto = PORT;
-                datos_th->sem = sem;
-                datos_th->timeUpdate = timeUpdate;
+                //datos_th->sem = sem;
+                //datos_th->timeUpdate = timeUpdate;
+
+                modificarThreads();
                 pthread_create(&tid, NULL, nueva_peticion, (void *) datos_th);
             }
         } else if (pid < 0)
             annadirEntradaBitacora("Error Creando FORK");
         else {
+
             int listenfdModify = get_listener_socket(PORT_MODIFY);
             if (listenfdModify < 0) {
                 fprintf(stderr, "webserver: fatal error getting listening socket\n");
@@ -493,9 +670,18 @@ int main(void){
                           smodify, sizeof smodify);
                 sprintf(entradaLog, "%s%s\n", "server: got connection from \n", smodify);
                 annadirEntradaBitacora(entradaLog);
-                printf("server: got connection from %s\n", smodify);
-                handle_http_request(newfdmodify, cachemodify, PORT_MODIFY, sem, timeUpdate);
-                close(newfdmodify);
+
+                modificarClientes(smodify);
+
+                //printf("server: got connection from %s\n", smodify);
+
+                struct datos_thread *datos_th = malloc(sizeof(struct datos_thread));
+                datos_th->fd = newfdmodify;
+                datos_th->cachethread = cachemodify;
+                datos_th->puerto = PORT_MODIFY;
+
+                modificarThreads();
+                pthread_create(&tidadmin, NULL, nueva_peticion, (void *) datos_th);
             }
         }
     }
