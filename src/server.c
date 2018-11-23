@@ -566,8 +566,7 @@ int main(void){
     }
     timeUpdate = (char *) shmat(shmid, NULL, 0);
     memcpy(timeUpdate, tiempoString, 24);
-    int retorno;
-    retorno = sem = sem_open ("pSem", O_CREAT, 0644, 1);
+    sem = sem_open ("pSem", O_CREAT, 0644, 1);
     //
 
 
