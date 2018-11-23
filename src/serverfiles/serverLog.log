@@ -1,1166 +1,5560 @@
-Thu Nov 22 11:34:46 2018
+Wed Nov 21 20:35:53 2018
 Archivos index.html y admin.html actualizados
 
-Thu Nov 22 11:34:52 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:34:52 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:35:11 2018
+Wed Nov 21 20:35:54 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:35:22 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:22 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET / HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
-REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
-REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
-REQUEST:  GET /estilos.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:03 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:36:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:03 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:36:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+Wed Nov 21 20:36:03 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:03 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:36:04 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:23 2018
-REQUEST:  GET /dino.jpg HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:04 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:36:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:04 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:36:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
 REQUEST:  GET /cat.jpg HTTP/1.1
-Thu Nov 22 11:35:23 2018
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:36:10 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:10 2018
 REQUEST:  GET /despacio.jpg HTTP/1.1
-Thu Nov 22 11:35:24 2018
+Wed Nov 21 20:36:10 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:24 2018
+Wed Nov 21 20:36:10 2018
 REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:35:25 2018
+Wed Nov 21 20:36:11 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:25 2018
-REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1
-Thu Nov 22 11:35:26 2018
+Wed Nov 21 20:36:11 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:36:11 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:11 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:36:11 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:36:11 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:36:14 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:35:34 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:35:34 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:35:36 2018
+Wed Nov 21 20:36:25 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:35:44 2018
+Wed Nov 21 20:36:27 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:44 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:35:54 2018
+Wed Nov 21 20:36:27 2018
+REQUEST:  GET /modificarXML?nombOriginal=noEsTrumpNiObama&nombvideo=calleseviejolesbiano&fechavideo=3456-12-04&descvideo= HTTP/1.1
+Wed Nov 21 20:36:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:36:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:36:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:37:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:37:22 2018
+Archivos index.html y admin.html actualizados
+
+Wed Nov 21 20:37:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:37:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:37:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:37:47 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:35:54 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:36:04 2018
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:37:47 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:36:04 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:36:14 2018
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:36:14 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:36:23 2018
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:37:47 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:47 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:37:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:37:55 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:55 2018
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+Wed Nov 21 20:37:55 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:55 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:37:55 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:55 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:37:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:37:56 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:38:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:38:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /modificarXML?nombOriginal=noEsTrumpNiObama&nombvideo=nada&fechavideo=3456-12-26&descvideo=sad+x2 HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:38:14 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:14 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:38:24 2018
 Las sumas md5 son diferentes
 
-Thu Nov 22 11:36:24 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:36:24 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:37:12 2018
-Archivos index.html y admin.html actualizados
-
-Thu Nov 22 11:37:13 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:37:14 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:14 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET / HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /estilos.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /cat.jpg HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /dino.jpg HTTP/1.1
-Thu Nov 22 11:37:16 2018
-REQUEST:  GET /despacio.jpg HTTP/1.1
-Thu Nov 22 11:37:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:17 2018
-REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:37:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:17 2018
-REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1
-Thu Nov 22 11:37:24 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:37:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:37:35 2018
+Wed Nov 21 20:38:35 2018
 Las sumas md5 son diferentes
 
-Thu Nov 22 11:37:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:37:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:37:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:37:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:38:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:38:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:38:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:38:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:38:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:38:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:38:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:38:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:38:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:38:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:38:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:38:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:39:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:39:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:39:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:39:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:39:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:39:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:39:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:39:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:39:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:39:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:39:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:39:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:40:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:40:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:40:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:40:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:40:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:40:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:40:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:40:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:40:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:40:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:40:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:40:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:41:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:41:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:41:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:41:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:41:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:41:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:41:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:41:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:41:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:41:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:41:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:41:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:42:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:42:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:42:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:42:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:42:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:42:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:42:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:42:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:42:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:42:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:42:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:42:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:43:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:43:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:43:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:43:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:43:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:43:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:43:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:43:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:43:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:43:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:43:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:43:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:44:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:44:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:44:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:44:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:44:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:44:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:44:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:44:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:44:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:44:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:44:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:44:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:45:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:45:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:45:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:45:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:45:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:45:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:45:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:45:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:45:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:45:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:45:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:45:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:46:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:46:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:46:17 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:46:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:46:27 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:46:27 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:46:37 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:46:37 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:46:47 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:46:47 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:46:57 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:46:57 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:47:07 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:47:07 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:47:14 2018
-Archivos index.html y admin.html actualizados
-
-Thu Nov 22 11:47:14 2018
-webserver: fatal error getting listening socket
-Thu Nov 22 11:47:14 2018
-webserver: fatal error getting listening socket
-Thu Nov 22 11:47:16 2018
+Wed Nov 21 20:38:45 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:47:17 2018
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:47:17 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:47:27 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:47:37 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:47:47 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:47:58 2018
-Archivos index.html y admin.html actualizados
-
-Thu Nov 22 11:47:59 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:48:04 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /modificarXML?nombOriginal=noEsTrumpNiObama&nombvideo=nada&fechavideo=3456-12-26&descvideo=sad+x2 HTTP/1.1
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:04 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:48:10 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:48:10 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET / HTTP/1.1
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /estilos.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
 REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
 REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
 REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:50 2018
 REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
 REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:12 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:12 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /cat.jpg HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /despacio.jpg HTTP/1.1
-Thu Nov 22 11:48:12 2018
-REQUEST:  GET /dino.jpg HTTP/1.1
-Thu Nov 22 11:48:13 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:13 2018
+Wed Nov 21 20:38:50 2018
 REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:48:14 2018
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:21 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:48:23 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:23 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:48:32 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:48:33 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:33 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:48:43 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:38:50 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:48:43 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:48:43 2018
+Wed Nov 21 20:38:50 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:38:51 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:51 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:38:51 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:38:51 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:38:55 2018
 Las sumas md5 son diferentes
 
-Thu Nov 22 11:48:53 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:48:53 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:49:03 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:49:03 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:49:13 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:49:13 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:49:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:49:23 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:49:33 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:49:33 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:49:43 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:49:43 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:49:53 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:49:53 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:50:03 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:50:03 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:50:13 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:50:13 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:50:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:50:23 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:50:33 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:50:33 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:50:38 2018
+Wed Nov 21 20:41:45 2018
 Archivos index.html y admin.html actualizados
 
-Thu Nov 22 11:50:38 2018
+Wed Nov 21 20:41:45 2018
 webserver: fatal error getting listening socket
-Thu Nov 22 11:50:38 2018
+Wed Nov 21 20:41:45 2018
 webserver: fatal error getting listening socket
-Thu Nov 22 11:50:38 2018
+Wed Nov 21 20:41:45 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:50:43 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:50:43 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:51:13 2018
+Wed Nov 21 20:41:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:42:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:42:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:42:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:42:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:42:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:42:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:43:08 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:43:13 2018
 Archivos index.html y admin.html actualizados
 
-Thu Nov 22 11:51:14 2018
+Wed Nov 21 20:43:13 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:51:22 2018
+Wed Nov 21 20:43:23 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:23 2018
 REQUEST:  GET / HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
 REQUEST:  GET /estilos.css HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
 REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /cat.jpg HTTP/1.1
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /dino.jpg HTTP/1.1
-Thu Nov 22 11:51:23 2018
-REQUEST:  GET /despacio.jpg HTTP/1.1
-Thu Nov 22 11:51:23 2018
-server: got connection from 
-127.0.0.1
-
-Thu Nov 22 11:51:23 2018
+Wed Nov 21 20:43:24 2018
 REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
-Thu Nov 22 11:51:24 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Thu Nov 22 11:51:33 2018
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:43:24 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:33 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:51:36 2018
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:43:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:43:24 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:24 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:43:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:32 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:43:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:43:44 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:43:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:44:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:44:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:45:51 2018
+Archivos index.html y admin.html actualizados
+
+Wed Nov 21 20:45:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:45:54 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:45:54 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:45:55 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:45:55 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:46:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:46:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:03 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:46:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:03 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:46:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:03 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:46:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:03 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:46:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:03 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:46:03 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:46:04 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:04 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:46:07 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:07 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:46:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:46:13 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:46:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:46:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:46:33 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:33 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:46:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /modificarXML?nombOriginal=wapisrun&nombvideo=despacito&fechavideo=0005-03-04&descvideo=walis HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:46:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:46:44 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:46:53 2018
 Las sumas md5 son diferentes
 
-Thu Nov 22 11:51:43 2018
+Wed Nov 21 20:47:03 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 20:47:08 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:43 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
-Thu Nov 22 11:51:53 2018
+Wed Nov 21 20:47:08 2018
 server: got connection from 
 127.0.0.1
 
-Thu Nov 22 11:51:53 2018
-REQUEST:  GET /actualizarIndex HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:47:08 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:08 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:47:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:47:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:47:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 02:47:37 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:47:37 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:47:37 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:47:38 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:38 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:38 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:47:38 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:47:38 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:47:38 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:47:38 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:47:44 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:47:54 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:48:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:48:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /slideshow.html HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:48:18 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:48:20 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:20 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:20 2018
+REQUEST:  GET /despacito2.mp4 HTTP/1.1
+Wed Nov 21 20:48:20 2018
+REQUEST:  GET /despacito2.mp4 HTTP/1.1
+Wed Nov 21 20:48:22 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:25 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:48:31 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:48:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:48:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:48:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:49:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:49:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:49:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:49:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:49:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:49:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /modificarXML?nombOriginal=wapisrun&nombvideo=despacito&fechavideo=0005-03-04&descvideo=walis HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:50:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:00 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:50:01 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:50:01 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:50:07 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 20:55:36 2018
+Archivos index.html y admin.html actualizados
+
+Wed Nov 21 20:55:36 2018
+webserver: fatal error getting listening socket
+Wed Nov 21 20:55:36 2018
+webserver: fatal error getting listening socket
+Wed Nov 21 20:55:36 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:56:38 2018
+Archivos index.html y admin.html actualizados
+
+Wed Nov 21 20:56:39 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:56:49 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:56:50 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:56:56 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:56:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:56 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:56:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:56 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 20:56:58 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:56:58 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 20:56:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:57:05 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:05 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:57:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:57:20 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:57:30 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:57:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:57:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /modificarXML?nombOriginal=nada&nombvideo=trumpyobama%3Av&fechavideo=3456-12-26&descvideo=sad+x3 HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:57:56 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:57:56 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:58:01 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 20:58:11 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /modificarXML?nombOriginal=nada&nombvideo=trumpyobama%3Av&fechavideo=3456-12-26&descvideo=sad+x3 HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:58:12 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:12 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:58:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:58:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:58:34 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:58:35 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:35 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:58:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /modificarXML?nombOriginal=trumpyobama%253Av&nombvideo=noEsTrumpNiObama&fechavideo=3456-12-26&descvideo=jrjejejeje HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:58:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:48 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /modificarXML?nombOriginal=trumpyobama%253Av&nombvideo=noEsTrumpNiObama&fechavideo=3456-12-26&descvideo=jrjejejeje HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:58:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:58:52 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:58:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:59:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:59:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:59:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /modificarXML?nombOriginal=trumpyobama%253Av&nombvideo=noEsTrumpNiObama&fechavideo=3456-12-26&descvideo=jrjejejeje HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /cat.jpg HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 20:59:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:29 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 20:59:30 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 20:59:30 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 20:59:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:00:02 2018
+Archivos index.html y admin.html actualizados
+
+Wed Nov 21 21:00:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:00:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:00:16 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:16 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:00:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/formoid/formoid.min.js HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:00:25 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:25 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u HTTP/1.1
+Wed Nov 21 21:00:26 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:26 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /ingresar?titulo=admin&pass=admin HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:00:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:29 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:00:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:00:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /modificarXML?nombOriginal=despacito2&nombvideo=despacitohththt&fechavideo=2018-03-31&descvideo=asdasdasd HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:00:48 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:48 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:00:54 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /modificarXML?nombOriginal=despacito2&nombvideo=despacitohththt&fechavideo=2018-03-31&descvideo=asdasdasd HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:00:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:00:59 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:04 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 21:01:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:01:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /modificarXML?nombOriginal=despacitohththt&nombvideo=despacitoversion2&fechavideo=2018-03-31&descvideo=remix+con+bad+bunny+ HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:01:29 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:29 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:01:35 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /modificarXML?nombOriginal=despacitohththt&nombvideo=despacitoversion2&fechavideo=2018-03-31&descvideo=remix+con+bad+bunny+ HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:01:39 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:39 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /modificarXML?nombOriginal=despacitohththt&nombvideo=despacitoversion2&fechavideo=2018-03-31&descvideo=remix+con+bad+bunny+ HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:01:44 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:44 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:45 2018
+Las sumas md5 son diferentes
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:01:52 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:52 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:01:55 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:55 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:55 2018
+REQUEST:  GET /auxilioMeDesmayo.mp4 HTTP/1.1
+Wed Nov 21 21:01:55 2018
+REQUEST:  GET /auxilioMeDesmayo.mp4 HTTP/1.1
+Wed Nov 21 21:01:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:01:57 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:57 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:01:57 2018
+REQUEST:  GET /despacitoversion2.mp4 HTTP/1.1
+Wed Nov 21 21:01:58 2018
+REQUEST:  GET /despacitoversion2.mp4 HTTP/1.1
+Wed Nov 21 21:01:59 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:02:00 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:02:00 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Wed Nov 21 21:02:00 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Wed Nov 21 21:02:01 2018
+server: got connection from 
+127.0.0.1
+
+Wed Nov 21 21:02:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:09:39 2018
+Archivos index.html y admin.html actualizados
+
+Wed Nov 21 21:09:39 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:09:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:10:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:10:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:10:20 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:10:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:10:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:10:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:11:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:11:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:11:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:11:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:11:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:11:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:12:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:13:09 2018
+Archivos index.html y admin.html actualizados
+
+Wed Nov 21 21:13:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:13:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:13:30 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:13:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET / HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:13:45 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:13:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:13:47 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:13:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:14:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:14:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:14:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:14:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:14:36 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:36 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Wed Nov 21 21:14:37 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:37 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Wed Nov 21 21:14:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /slideshow.html HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Wed Nov 21 21:14:47 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:47 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Wed Nov 21 21:14:48 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:48 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Wed Nov 21 21:14:48 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:48 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Wed Nov 21 21:14:48 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:14:48 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Wed Nov 21 21:14:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:15:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Wed Nov 21 21:15:04 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:15:04 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Wed Nov 21 21:15:04 2018
+server: got connection from 
+192.168.1.102
+
+Wed Nov 21 21:15:04 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Wed Nov 21 21:15:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
