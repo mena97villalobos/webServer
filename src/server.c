@@ -577,12 +577,12 @@ int main(void){
     crearCandado();
 
     pid = fork();
-    if(pid > 0){
-        int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
+    if(pid == 0){
+        system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
                          "../src/serverfiles/sumaMD5.txt");
         calculateMD5(sem, timeUpdate);
     }
-    else if(pid == 0){
+    else if(pid > 0){
         pid = fork();
         if (pid > 0) {
 
@@ -595,7 +595,7 @@ int main(void){
                 annadirEntradaBitacora("webserver: fatal error getting listening socket");
                 exit(1);
             }
-            printf("webserver: waiting for connections on port %s...\n", PORT);
+            //printf("webserver: waiting for connections on port %s...\n", PORT);
             while (1) {
                 socklen_t sin_size = sizeof their_addr;
                 struct cache *cache = cache_create(10, 0);
@@ -631,7 +631,7 @@ int main(void){
                 annadirEntradaBitacora("webserver: fatal error getting listening socket");
                 exit(1);
             }
-            printf("webserver: waiting for connections on port %s...\n", PORT_MODIFY);
+            //printf("webserver: waiting for connections on port %s...\n", PORT_MODIFY);
             while (1) {
                 socklen_t sin_size = sizeof addr_modify;
                 newfdmodify = accept(listenfdModify, (struct sockaddr *) &addr_modify, &sin_size);
