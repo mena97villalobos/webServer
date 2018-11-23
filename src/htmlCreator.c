@@ -236,17 +236,16 @@ void mainCreateHTML(char* time){
         fprintf(fIndex, "%s\n", "</div></div>");
 
     fprintf(fIndex, "\n%s%s%s\n", "<script>"
-                                  "setInterval(actualizar, 10000);\n"
-                                  "function actualizar(){"
-                                  "\tvar lastUpdate = \"", time,
-                                  "\";\n\tvar request = new XMLHttpRequest();\n"
+                                  "\nsetInterval(actualizar, 10000);\nvar lastUpdate = \"", time,
+                                  "\";\nfunction actualizar(){"
+                                  "\n\tvar request = new XMLHttpRequest();\n"
                                   "\trequest.open('GET', \"/actualizarIndex\");\n"
                                   "\trequest.responseType = 'text';\n\trequest.send();\n"
                                   "\trequest.onload = function(){\n"
                                   "\t\tvar lastUpdateServer = request.response;\n"
                                   "\t\tif(lastUpdate !== lastUpdateServer){\n"
                                   "\t\t\tif(window.confirm(\"Se detectaron nuevos cambios en el servidor, recargar?\"))"
-                                  "{\n\t\t\t\tlocation.reload();\n\t\t\t}\n"
+                                  "{\n\t\t\t\tlocation.reload();\n\t\t\t}\n\t\t\telse{\n\t\t\t\tlastUpdate = lastUpdateServer;\n}\n"
                                   "\t\t}\n"
                                   "\t};\n}</script>");
 

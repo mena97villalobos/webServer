@@ -89,7 +89,6 @@ void establecerMemoriaCompartida(){
 }
 
 void crearCandado(){
-
     sem_init(&variablesComp->lockClientes, 1,1);
     sem_init(&variablesComp->lockThreads,1,1);
     sem_init(&lockBytes,0,1);
@@ -97,15 +96,12 @@ void crearCandado(){
 }
 
 void modificarThreads(){
-
     sem_wait(&variablesComp->lockThreads);
         variablesComp->threadsCreados+=1;
     sem_post(&variablesComp->lockThreads);
-
 }
 
 int clienteExiste(char cliente[]){
-    printf("VIENDO CLIENTE: %s\n",cliente);
     if(variablesComp->contadorClientes == 0) {
         strcpy(variablesComp->listaClientes[variablesComp->contadorClientes], cliente);
         variablesComp->contadorClientes+=1;
@@ -123,46 +119,30 @@ int clienteExiste(char cliente[]){
 }
 
 void modificarClientes(char cliente[]){
-
     sem_wait(&variablesComp->lockClientes);
-
-
     if(!clienteExiste(cliente))
         variablesComp->clientesDistintos+=1;
-
-    for(int i =0;i<variablesComp->contadorClientes;i++){
-        printf("Cliente Consultado: %s\n",variablesComp->listaClientes[i]);
-    }
-    printf("FIN\n");
-
     sem_post(&variablesComp->lockClientes);
 }
 
 void modificarBytes(int nuevosBytes){
     sem_wait(&lockBytes);
-
     bytesTransferidos= bytesTransferidos + nuevosBytes;
-
     sem_post(&lockBytes);
 }
 
 void modificarSolicitudes(){
     sem_wait(&lockSolicitudes);
-
     solicitudesAtendidas+=1;
-
     sem_post(&lockSolicitudes);
 }
 
 void annadirEntradaBitacora(char* entrada){
     time_t t1 = time(NULL);
     struct tm *ltime = localtime(&t1);
-
     FILE* fd = fopen(PATH_BITACORA, "a");
     flock(fd, LOCK_EX);
-
     fprintf(fd, "%s%s\n", asctime(ltime), entrada);
-
     flock(fd, LOCK_UN);
     fclose(fd);
 }
@@ -184,7 +164,7 @@ void calculateMD5(sem_t* sem, char* timeUpdate){
             c = (char)fgetc(fd);
         }
         ultimaSuma[len] = "\0";
-        int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
+        system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
                          "../src/serverfiles/sumaMD5.txt");
         len = 0;
         fseek(fd, -36, SEEK_END);
@@ -211,10 +191,11 @@ void calculateMD5(sem_t* sem, char* timeUpdate){
             //Actualizar variable compartida de tiempo
             sem_wait(sem);
             memcpy(timeUpdate, tiempoString, 24);
-            printf("Tiempo de ultima refresh actualizado\n");
             sem_post(sem);
 
             mainCreateHTML(tiempoString);
+            system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
+                             "../src/serverfiles/sumaMD5.txt");
         }
         flock(fd, LOCK_UN);
         fclose(fd);
@@ -419,7 +400,7 @@ char *find_start_of_body(char *header) {
     return p;
 }
 
-int handle_http_request(int fd, struct cache *cache, char * puerto/*, sem_t* sem, char* timeUpdate*/) {
+int handle_http_request(int fd, struct cache *cache, char * puerto, sem_t* sem, char* timeUpdate) {
     const int request_buffer_size = 65536; // 64K
     char request[request_buffer_size];
     char *p;
@@ -453,13 +434,12 @@ int handle_http_request(int fd, struct cache *cache, char * puerto/*, sem_t* sem
         char entradaLog[1200];
         sprintf(entradaLog, "%s %s %s %s", "REQUEST: ", request_type, request_path, request_protocol);
         annadirEntradaBitacora(entradaLog);
-        //printf("REQUEST: %s %s %s\n", request_type, request_path, request_protocol);
         strcpy(request_path_copy, request_path);
         dividir_request_path(request_path_div, request_path_copy);
 
         if (strcmp(request_type, "GET") == 0) {
             if(strcmp(request_path_div[0], "/actualizarIndex") == 0){
-               // send_response(fd, "HTTP/1.1 200 OK", "text/plain", timeUpdate, 24);
+                send_response(fd, "HTTP/1.1 200 OK", "text/plain", timeUpdate, 24);
             }
             else if (strcmp(request_path_div[0], "/admin.html") == 0) {
                 annadirEntradaBitacora("Error intento de entrar como administrador");
@@ -501,7 +481,7 @@ void* nueva_peticion(void* datos){
     struct cache* cache = d->cachethread;
     char * puerto = d->puerto;
     while(1) {
-        int retorno = handle_http_request(fd, cache, puerto/*, d->sem, d->timeUpdate*/);
+        int retorno = handle_http_request(fd, cache, puerto, d->sem, d->timeUpdate);
         if(retorno)
             break;
     }
@@ -574,7 +554,7 @@ int main(void){
     annadirEntradaBitacora("Archivos index.html y admin.html actualizados\n");
 
     //Semaforo para ultima vez actualizado
-    /*char* timeUpdate;
+    char* timeUpdate;
     key_t shmkey;                 //shared memory key
     int shmid;                    //shared memory id
     sem_t *sem;                   //synch semaphore
@@ -586,7 +566,8 @@ int main(void){
     }
     timeUpdate = (char *) shmat(shmid, NULL, 0);
     memcpy(timeUpdate, tiempoString, 24);
-    sem = sem_open ("pSem", O_CREAT | O_EXCL, 0644, 1);*/
+    int retorno;
+    retorno = sem = sem_open ("pSem", O_CREAT, 0644, 1);
     //
 
 
@@ -598,12 +579,9 @@ int main(void){
 
     pid = fork();
     if(pid > 0){
-        //int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
-        //                 "../src/serverfiles/sumaMD5.txt");
-        //calculateMD5(sem, timeUpdate);
-        while(1){
-
-        }
+        int ret = system("find ../src/serverroot -type f -exec md5sum {} \\; | sort -k 2 | md5sum > "
+                         "../src/serverfiles/sumaMD5.txt");
+        calculateMD5(sem, timeUpdate);
     }
     else if(pid == 0){
         pid = fork();
@@ -631,7 +609,6 @@ int main(void){
                 inet_ntop(their_addr.ss_family,
                           get_in_addr((struct sockaddr *) &their_addr),
                           s, sizeof s);
-                //printf("server: got connection from %s\n", s);
                 sprintf(entradaLog, "%s%s\n", "server: got connection from \n", s);
                 annadirEntradaBitacora(entradaLog);
 
@@ -641,16 +618,14 @@ int main(void){
                 datos_th->fd = newfd;
                 datos_th->cachethread = cache;
                 datos_th->puerto = PORT;
-                //datos_th->sem = sem;
-                //datos_th->timeUpdate = timeUpdate;
-
+                datos_th->sem = sem;
+                datos_th->timeUpdate = timeUpdate;
                 modificarThreads();
                 pthread_create(&tid, NULL, nueva_peticion, (void *) datos_th);
             }
         } else if (pid < 0)
             annadirEntradaBitacora("Error Creando FORK");
         else {
-
             int listenfdModify = get_listener_socket(PORT_MODIFY);
             if (listenfdModify < 0) {
                 fprintf(stderr, "webserver: fatal error getting listening socket\n");
@@ -672,13 +647,12 @@ int main(void){
                 annadirEntradaBitacora(entradaLog);
 
                 modificarClientes(smodify);
-
-                //printf("server: got connection from %s\n", smodify);
-
                 struct datos_thread *datos_th = malloc(sizeof(struct datos_thread));
                 datos_th->fd = newfdmodify;
                 datos_th->cachethread = cachemodify;
                 datos_th->puerto = PORT_MODIFY;
+                datos_th->sem = sem;
+                datos_th->timeUpdate = timeUpdate;
 
                 modificarThreads();
                 pthread_create(&tidadmin, NULL, nueva_peticion, (void *) datos_th);
