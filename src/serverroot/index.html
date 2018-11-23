@@ -94,8 +94,10 @@ Fecha: 2018-03-31<br>
 </div>
 </div></div></div></div>
 
-<script>setInterval(actualizar, 10000);
-function actualizar(){	var lastUpdate = "Thu Nov 22 11:51:13 2018";
+<script>
+setInterval(actualizar, 10000);
+var lastUpdate = "Thu Nov 22 21:08:39 2018";
+function actualizar(){
 	var request = new XMLHttpRequest();
 	request.open('GET', "/actualizarIndex");
 	request.responseType = 'text';
@@ -106,6 +108,9 @@ function actualizar(){	var lastUpdate = "Thu Nov 22 11:51:13 2018";
 			if(window.confirm("Se detectaron nuevos cambios en el servidor, recargar?")){
 				location.reload();
 			}
+			else{
+				lastUpdate = lastUpdateServer;
+}
 		}
 	};
 }</script>
