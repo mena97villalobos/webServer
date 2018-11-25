@@ -292,11 +292,12 @@ void dividir_request_path(char *request_divided[], char request_path[]){
 }
 
 int send_response(int fd, char *header, char *content_type, void *body, int content_length){
+
     char* response = calloc(content_length + 1024, sizeof(char));
     time_t t1 = time(NULL);
     struct tm *ltime = localtime(&t1);
     int response_length = sprintf(response, "%s\nDate: %sConnection: close\nContent-Length: %d\nContent-Type: %s\n"
-                                  "\n", header, asctime(ltime), content_length, content_type);
+                                            "\n", header, asctime(ltime), content_length, content_type);
     memcpy(response + response_length, body, content_length);
     ssize_t rv = send(fd, response, response_length + content_length, 0);
     modificarBytes(response_length + content_length);
@@ -469,7 +470,7 @@ int handle_http_request(int fd, struct cache *cache, char * puerto, sem_t* sem, 
             fprintf(stderr, "unknown request type \"%s\"\n", request_type);
             annadirEntradaBitacora("Error tipo de petición desconocida");
         }
-        return 0;
+        return 1;
     }
     else{
         return 1;
