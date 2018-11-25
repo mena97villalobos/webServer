@@ -50,8 +50,10 @@ char tiempoString[26];
 //Variables Compartidas
 long  bytesTransferidos = 0;
 long  solicitudesAtendidas = 0;
+double tiempo = 0;
 sem_t lockBytes;
 sem_t lockSolicitudes;
+sem_t lockTiempo;
 
 
 //Variables Compartidas
@@ -93,6 +95,15 @@ void crearCandado(){
     sem_init(&variablesComp->lockThreads,1,1);
     sem_init(&lockBytes,0,1);
     sem_init(&lockSolicitudes,0,1);
+    sem_init(&lockTiempo,0,1);
+}
+
+void modificarTiempo(double time){
+    sem_wait(&lockTiempo);
+
+        tiempo = tiempo + time;
+
+    sem_post(&lockTiempo);
 }
 
 void modificarThreads(){
@@ -478,22 +489,29 @@ int handle_http_request(int fd, struct cache *cache, char * puerto, sem_t* sem, 
 }
 
 void* nueva_peticion(void* datos){
+    double elapsed = 0;
     struct datos_thread* d = (struct datos_thread*)datos;
     int fd = d->fd;
     struct cache* cache = d->cachethread;
     char * puerto = d->puerto;
+    time_t start, end;
+    clock_t inicio = clock();
     while(1) {
         int retorno = handle_http_request(fd, cache, puerto, d->sem, d->timeUpdate);
         if(retorno)
             break;
     }
+    elapsed = (double)((clock() - inicio)*1000 / CLOCKS_PER_SEC);
+
+    modificarTiempo(elapsed/1000);
+    printf("Tiempo de Ejecucion: %lf s \n",elapsed/1000);
     close(fd);
 }
 
 void imprimirMenu(){
 
-    printf("\n 1) Ver Hora de Inicio\n 2) Ver Cantidad de Bytes Transferidos\n 3) Ver Cantidad de Clientes y Administradores que Han Consultado\n"
-           " 4) Ver Cantidad de Solicitudes Atendidas de Clientes\n 5) Ver Cantidad de Threads Creados \n");
+    printf("\n 1) Ver Hora de Inicio\n 2) Ver Cantidad de Bytes Transferidos\n 3) Velocidad Promedio en Atender Solicitudes\n 4) Ver Cantidad de Clientes y Administradores que Han Consultado\n"
+           " 5) Ver Cantidad de Solicitudes Atendidas de Clientes\n 6) Ver Cantidad de Threads Creados \n");
 
 }
 
@@ -506,12 +524,15 @@ void realizarAccionAdministrador(int opcion){
             printf("\nBytes Transferidos en Total: %ld \n",bytesTransferidos);
             break;
         case 3:
-            printf("\nTotal de Clientes y Administradores Conectados: %ld\n",variablesComp->clientesDistintos);
+            printf("\nLas solicitudes son atendidas en un tiempo promedio de: %lf \n",tiempo/solicitudesAtendidas);
             break;
         case 4:
-            printf("\nTotal de Solicitudes Atendidas: %ld\n",solicitudesAtendidas);
+            printf("\nTotal de Clientes y Administradores Conectados: %ld\n",variablesComp->clientesDistintos);
             break;
         case 5:
+            printf("\nTotal de Solicitudes Atendidas: %ld\n",solicitudesAtendidas);
+            break;
+        case 6:
             printf("\nTotal de Threads Creados: %ld\n",variablesComp->threadsCreados);
             break;
         default:
