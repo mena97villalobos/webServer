@@ -104,7 +104,7 @@ void modificarThreads(){
 int clienteExiste(char cliente[]){
     if(variablesComp->contadorClientes == 0) {
         strcpy(variablesComp->listaClientes[variablesComp->contadorClientes], cliente);
-        variablesComp->contadorClientes+=1;
+        variablesComp->contadorClientes= variablesComp->contadorClientes+1;
 
         return 0;
     }else{
@@ -112,8 +112,9 @@ int clienteExiste(char cliente[]){
             if(!strcmp(variablesComp->listaClientes[i],cliente))
                 return 1;
         }
-        variablesComp->contadorClientes+=1;
         strcpy(variablesComp->listaClientes[variablesComp->contadorClientes], cliente);
+        variablesComp->contadorClientes= variablesComp->contadorClientes+1;
+
     }
     return 0;
 }
@@ -490,7 +491,7 @@ void* nueva_peticion(void* datos){
 
 void imprimirMenu(){
 
-    printf(" 1) Ver Hora de Inicio\n 2) Ver Cantidad de Bytes Transferidos\n 3) Ver Cantidad de Clientes y Administradores que Han Consultado\n"
+    printf("\n 1) Ver Hora de Inicio\n 2) Ver Cantidad de Bytes Transferidos\n 3) Ver Cantidad de Clientes y Administradores que Han Consultado\n"
            " 4) Ver Cantidad de Solicitudes Atendidas de Clientes\n 5) Ver Cantidad de Threads Creados \n");
 
 }
@@ -498,22 +499,22 @@ void imprimirMenu(){
 void realizarAccionAdministrador(int opcion){
     switch(opcion){
         case 1:
-            printf("Servidor Iniciado a las: %s\n",tiempoString);
+            printf("\nServidor Iniciado a las: %s\n",tiempoString);
             break;
         case 2:
-            printf("Bytes Transferidos en Total: %ld \n",bytesTransferidos);
+            printf("\nBytes Transferidos en Total: %ld \n",bytesTransferidos);
             break;
         case 3:
-            printf("Total de Clientes y Administradores Conectados: %ld\n",variablesComp->clientesDistintos);
+            printf("\nTotal de Clientes y Administradores Conectados: %ld\n",variablesComp->clientesDistintos);
             break;
         case 4:
-            printf("Total de Solicitudes Atendidas: %ld\n",solicitudesAtendidas);
+            printf("\nTotal de Solicitudes Atendidas: %ld\n",solicitudesAtendidas);
             break;
         case 5:
-            printf("Total de Threads Creados: %ld\n",variablesComp->threadsCreados);
+            printf("\nTotal de Threads Creados: %ld\n",variablesComp->threadsCreados);
             break;
         default:
-            printf("Valor incorrecto. Intente de nuevo.\n");
+            printf("\nOpción. Intente de nuevo.\n");
     }
 }
 
@@ -521,7 +522,7 @@ void* menu_administrador(){
     int opcionSeleccionada;
     while(1){
         imprimirMenu();
-        printf("Seleccione una Opción");
+        printf("\nSeleccione una Opción: ");
         scanf("%i",&opcionSeleccionada);
 
         realizarAccionAdministrador(opcionSeleccionada);

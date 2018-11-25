@@ -85,18 +85,22 @@ void createSlideshowHTML(struct xmlVideo* videoData, int contador){
 
             fprintf(ftmp,"%s\n","<div class=\"carousel-inner\">");
             fprintf(ftmp,"<div class=\"carousel-item active\">\n"
-                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\"  class=\"d-block w-100\" src=\"%s\" alt=\"Los Angeles\"></a>\n"
-                         "</div>\n",videoData->nombre,videoData->previewPath);
+                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\"  class=\"d-block w-100\" src=\"%s\"></a>\n""<div class=\"carousel-caption\">\n"
+                         "   <p>Titulo: %s<br>Descripcion: %s<br>Tamaño: %s<br>Fecha: %s\n</p>\n"
+                         "      </div>\n</div>\n",videoData->nombre,videoData->previewPath,videoData->nombre,videoData->descripcion,
+                    videoData->tamanno,videoData->fecha);
+                         //"</div>\n",videoData->nombre,videoData->previewPath);
             break;
 
         default:
             fprintf(fSlide,"<li data-target=\"#myCarousel\" data-slide-to=\"%i\"></li>\n",contador);
 
             fprintf(ftmp,"<div class=\"carousel-item\">\n"
-                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\" class=\"d-block w-100\" src=\"%s\" alt=\"Chicago\"></a>\n"
+                         " <a href= \"%s.mp4\"> <img width =\"550\" height= \"410\" class=\"d-block w-100\" src=\"%s\"></a>\n"
                          "<div class=\"carousel-caption\">\n"
-                         "                            <h3>What we Do</h3>\n"
-                         "                        </div>\n</div>\n",videoData->nombre,videoData->previewPath);
+                         "   <p>Titulo: %s<br>Descripcion: %s<br>Tamaño: %s<br>Fecha: %s\n</p>\n"
+                         "      </div>\n</div>\n",videoData->nombre,videoData->previewPath,videoData->nombre,videoData->descripcion,
+                         videoData->tamanno,videoData->fecha);
     }
     fclose(fSlide);
     fclose(ftmp);
