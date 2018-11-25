@@ -494,8 +494,8 @@ void* nueva_peticion(void* datos){
     int fd = d->fd;
     struct cache* cache = d->cachethread;
     char * puerto = d->puerto;
-    time_t start, end;
     clock_t inicio = clock();
+
     while(1) {
         int retorno = handle_http_request(fd, cache, puerto, d->sem, d->timeUpdate);
         if(retorno)
@@ -504,7 +504,6 @@ void* nueva_peticion(void* datos){
     elapsed = (double)((clock() - inicio)*1000 / CLOCKS_PER_SEC);
 
     modificarTiempo(elapsed/1000);
-    printf("Tiempo de Ejecucion: %lf s \n",elapsed/1000);
     close(fd);
 }
 
