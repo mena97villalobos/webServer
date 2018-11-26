@@ -249,7 +249,7 @@ void mainCreateHTML(char* time){
                                   "\t\tvar lastUpdateServer = request.response;\n"
                                   "\t\tif(lastUpdate !== lastUpdateServer){\n"
                                   "\t\t\tif(window.confirm(\"Se detectaron nuevos cambios en el servidor, recargar?\"))"
-                                  "{\n\t\t\t\tlocation.reload();\n\t\t\t}\n\t\t\telse{\n\t\t\t\tlastUpdate = lastUpdateServer;\n}\n"
+                                  "{\n\t\t\t\tlocation.reload();\n\t\t\t}\n\t\t\telse{\n\t\t\t\tlastUpdate = lastUpdateServer;\n\t\t\t\t}\n"
                                   "\t\t}\n"
                                   "\t};\n}</script>");
 

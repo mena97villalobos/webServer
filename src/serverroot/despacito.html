@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Despacito</title>
+</head>
+<body onload="actualizar()">
+
+</body>
+
+<script>
+    function actualizar(){
+        var request = new XMLHttpRequest();
+        request.open('GET', "/despacito.mp4");
+        request.responseType = 'blob';
+        request.send();
+        request.onload = function(){
+            var datosVideo = new Blob(request.response, {type:"video/mp4"});
+
+        };
+    }
+</script>
+</html>

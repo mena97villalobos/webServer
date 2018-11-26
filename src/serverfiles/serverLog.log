@@ -1,145 +1,1743 @@
-./maFri Nov 23 14:16:05 2018
+Sun Nov 25 18:22:10 2018
 Archivos index.html y admin.html actualizados
 
-Fri Nov 23 14:16:07 2018
+Sun Nov 25 18:22:10 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:16:17 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:16:28 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:16:38 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:16:48 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:16:59 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:17:10 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:17:20 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:17:30 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:17:41 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:17:51 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:18:01 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:18:12 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:18:22 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:18:32 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:18:44 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:18:55 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:19:05 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:19:16 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:19:27 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:19:37 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:19:47 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:19:58 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:20:08 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:20:19 2018
-Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:15 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:16 2018
+REQUEST:  GET / HTTP/1.1
+Sun Nov 25 18:22:16 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:16 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
 server: got connection from 
 127.0.0.1
 
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Sun Nov 25 18:22:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:17 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 18:22:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:22:24 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:24 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 18:22:24 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:24 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:22:24 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 18:22:24 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:22:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:22:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:22:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:23:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:23:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:23:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:23:33 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 18:23:36 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:23:36 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 18:23:36 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:23:36 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:23:36 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:23:36 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 18:23:44 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:23:54 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:24:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:24:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:24:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:24:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:24:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:24:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:25:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:25:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:25:25 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:25:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:25:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:25:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:26:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:26:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:26:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:26:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:31:12 2018
+Archivos index.html y admin.html actualizados
+
+Sun Nov 25 18:31:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:31:17 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:31:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:31:26 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:31:26 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 18:31:26 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:31:26 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 18:31:26 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:31:26 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:31:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:31:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:31:54 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:32:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:32:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:32:25 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:32:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:32:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:32:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:33:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:33:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:33:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:33:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:33:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:33:58 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:34:08 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:34:18 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:34:29 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:34:39 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:34:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:35:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:35:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:35:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:35:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:35:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:35:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:36:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:36:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:36:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:36:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:36:44 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:36:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:37:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:37:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:37:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:37:36 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:37:46 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:37:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:38:07 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:38:17 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:38:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:38:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:38:48 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:38:58 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:39:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:39:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:39:29 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:39:39 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:39:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:40:00 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 18:40:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:40:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:40:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:40:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:40:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:41:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:41:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:41:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:41:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:41:43 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 18:41:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:42:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:42:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:42:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:42:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:42:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:42:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:43:05 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 18:43:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:43:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:43:36 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:43:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:43:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:44:07 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:44:17 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:44:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:44:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:44:48 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:44:58 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:45:08 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 18:45:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:45:29 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:45:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:45:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:46:00 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 18:46:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:46:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:46:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:46:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:46:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:47:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:47:13 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 18:47:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:47:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:47:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:47:54 2018
+Archivos index.html y admin.html actualizados
+
+Sun Nov 25 18:47:54 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:48:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:48:06 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:48:11 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:48:11 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 18:48:11 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:48:11 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 18:48:11 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:48:11 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 18:48:11 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:48:12 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 18:48:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:48:25 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:48:32 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:48:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:48:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:48:55 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 18:48:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:49:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:49:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:49:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:49:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:49:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:49:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:50:08 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:50:18 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:50:28 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:50:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:50:48 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:50:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:51:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:51:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:51:30 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:51:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:51:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:52:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:52:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:52:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 18:52:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:11:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:11:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:11:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:11:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:11:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:11:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:12:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:12:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:12:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:12:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:12:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:12:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:13:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:13:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:13:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:13:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:13:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:13:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:14:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:14:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:14:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:14:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:14:44 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:14:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:15:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:15:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:15:25 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:15:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:15:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:15:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:16:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:16:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:16:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:16:36 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:16:46 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:16:51 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:16:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:17:07 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:17:17 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:17:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:17:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:17:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:17:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:18:07 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:18:18 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:18:28 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:18:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:18:49 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:18:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:19:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:19:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:19:29 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:19:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:19:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:20:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:20:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:20:20 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:20:30 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:20:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:20:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:21:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:21:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:21:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:21:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:21:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:21:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:22:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:22:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:22:22 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 19:22:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:22:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:22:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:23:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:23:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:23:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:23:26 2018
+Archivos index.html y admin.html actualizados
+
+Sun Nov 25 19:23:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:23:30 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:23:34 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 19:23:34 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:23:34 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:23:34 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 19:23:34 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 19:23:35 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:23:35 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 19:23:36 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:23:46 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:23:50 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:23:50 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 19:23:50 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:23:50 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 19:23:50 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:23:50 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 19:23:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:24:03 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:24:03 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 19:24:07 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:24:17 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:24:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:24:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:24:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:24:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:25:08 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:25:18 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:25:28 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:25:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:25:48 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:25:58 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 19:26:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:26:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:26:29 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:26:39 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:26:49 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:26:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:27:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:27:20 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:27:30 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:27:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:27:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:28:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:28:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:28:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:28:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:28:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:28:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:29:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:29:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:29:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:29:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:29:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:29:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:30:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:30:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:30:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:30:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:30:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:30:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:31:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:31:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:31:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:31:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:31:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:31:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:32:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:32:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:32:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:32:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:32:44 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:32:54 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:33:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:33:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:33:25 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:33:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:33:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:33:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:34:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:34:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:34:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:34:36 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:34:46 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:34:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:35:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:35:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:35:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:45:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:45:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:45:25 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:45:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:45:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:45:58 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:46:08 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:46:18 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:46:28 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:46:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:46:48 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:46:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:47:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:47:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:47:29 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:47:39 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:47:49 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:47:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:48:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:48:20 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:48:30 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:48:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:48:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:49:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:49:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:49:21 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 19:49:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:49:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:49:51 2018
+Las sumas md5 son diferentes
+
+Sun Nov 25 19:50:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:50:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:50:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:50:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:50:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:50:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:51:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:51:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:51:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:51:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:51:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:51:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:52:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:52:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:52:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:52:34 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:52:44 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:52:54 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:53:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:53:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:53:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:53:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:53:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:53:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:54:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:54:15 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:54:26 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:54:36 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:54:46 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:54:56 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:55:00 2018
+Archivos index.html y admin.html actualizados
+
+Sun Nov 25 19:55:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:55:07 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET / HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Sun Nov 25 19:55:08 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:08 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 19:55:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:55:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:13 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 19:55:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:13 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 19:55:13 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 19:55:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:55:22 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:22 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 19:55:22 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:22 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 19:55:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:55:39 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 19:55:39 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 19:55:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:55:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 19:56:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:00:40 2018
+Archivos index.html y admin.html actualizados
+
+Sun Nov 25 20:00:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:00:47 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:00:47 2018
+REQUEST:  GET /despacito HTTP/1.1
+Sun Nov 25 20:00:47 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:00:47 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 20:00:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:00:55 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:00:55 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:26 2018
+Sun Nov 25 20:01:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:01:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:01:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:01:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:01:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:01:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:02:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:02:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:02:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:02:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:02:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:02:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:03:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:03:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:03:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:03:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:03:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:03:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:04:05 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:04:34 2018
+Archivos index.html y admin.html actualizados
+
+Sun Nov 25 20:04:35 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:04:45 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:04:55 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:05:06 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:05:10 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET / HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Sun Nov 25 20:05:13 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:13 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 20:05:14 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:15 2018
 REQUEST:  GET /despacito.mp4 HTTP/1.1
-Fri Nov 23 14:20:29 2018
+Sun Nov 25 20:05:16 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:20:40 2018
+Sun Nov 25 20:05:16 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:16 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 20:05:26 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:20:50 2018
+Sun Nov 25 20:05:36 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:21:00 2018
+Sun Nov 25 20:05:38 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:38 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Sun Nov 25 20:05:40 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:40 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 20:05:46 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:46 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Sun Nov 25 20:05:47 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:21:11 2018
+Sun Nov 25 20:05:49 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:05:49 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 20:05:57 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:21:21 2018
+Sun Nov 25 20:07:34 2018
+Archivos index.html y admin.html actualizados
+
+Sun Nov 25 20:07:35 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:21:31 2018
+Sun Nov 25 20:07:41 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET / HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/tether/tether.min.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-grid.min.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap-reboot.min.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/web/assets/mobirise-icons/mobirise-icons.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/dropdown/css/style.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/theme/css/style.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/touchswipe/jquery.touch-swipe.min.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/mobirise/css/mbr-additional.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /estilos.css HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/popper/popper.min.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/dropdown/js/script.min.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/tether/tether.min.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/web/assets/jquery/jquery.min.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/smoothscroll/smooth-scroll.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/theme/js/script.js HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /dino.jpg HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /despacio.jpg HTTP/1.1
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 20:07:43 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:43 2018
+REQUEST:  GET /assets/images/ostubelogotrans-160x150.png HTTP/1.1
+Sun Nov 25 20:07:44 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:45 2018
+REQUEST:  GET /despacito.mp4 HTTP/1.1
+Sun Nov 25 20:07:45 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:21:41 2018
+Sun Nov 25 20:07:46 2018
+server: got connection from 
+127.0.0.1
+
+Sun Nov 25 20:07:46 2018
+REQUEST:  GET /favicon.ico HTTP/1.1
+Sun Nov 25 20:07:55 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:21:52 2018
+Sun Nov 25 20:08:06 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:22:02 2018
+Sun Nov 25 20:08:16 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:22:12 2018
+Sun Nov 25 20:08:26 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:22:23 2018
+Sun Nov 25 20:08:36 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:22:33 2018
+Sun Nov 25 20:08:46 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:22:43 2018
+Sun Nov 25 20:08:56 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:22:54 2018
+Sun Nov 25 20:09:06 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
-Fri Nov 23 14:23:04 2018
+Sun Nov 25 20:09:16 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:09:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:09:37 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:09:47 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:09:57 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:10:07 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:10:17 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:10:27 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:10:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:10:48 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:10:58 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:11:08 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:11:18 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:11:28 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:11:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:11:48 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:11:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:12:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:12:19 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:12:29 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:12:39 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:12:49 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:12:59 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:13:09 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:13:20 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:13:30 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:13:40 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:13:50 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:14:00 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:14:10 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:14:20 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:14:31 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:14:41 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:14:51 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:15:01 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:15:11 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:15:21 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:15:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:15:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:15:52 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:16:02 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:16:12 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:16:22 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:16:32 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:16:42 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:16:53 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:17:03 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:17:13 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:17:23 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:17:33 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:17:43 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:17:54 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:18:04 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:18:14 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Sun Nov 25 20:18:24 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Mon Nov 26 11:40:17 2018
+Archivos index.html y admin.html actualizados
+
+Mon Nov 26 11:40:18 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Mon Nov 26 11:40:28 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Mon Nov 26 11:40:38 2018
+Las sumas md5 son iguales, no hay cambios en los archivos del servidor
+Mon Nov 26 11:47:32 2018
+Archivos index.html y admin.html actualizados
+
+Mon Nov 26 11:47:32 2018
 Las sumas md5 son iguales, no hay cambios en los archivos del servidor
